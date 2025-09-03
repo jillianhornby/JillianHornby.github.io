@@ -2,7 +2,7 @@
 title: "Syringe Pump"
 excerpt: "A motorized syringe pump prototype for precision and full control."
 header:
-  image: /assets/img/LF3DP-Banner-2.jpg
+  image: /assets/img/Assembly-Image.png
   teaser: /assets/img/Large-Format-3D-Printer-Thumbnail.png
 gallery:
   - image_path: assets/img/Syringe-Full.jpeg
