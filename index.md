@@ -10,7 +10,7 @@ header:
       url: "/portfolio/"
 excerpt: "I am an undergraduate student studying Electrical & Computer Engineering at Vanderbilt University with a minor in Digital Fabrication. This portfolio showcases the projects I've worked on in my Digital Fabrication classes along with the skills I've obtained."
 feature_row:
-  - image_path: assets/img/CNC-Mill-Thumbnail.jpg
+  - image_path: assets/img/Assembly-Image.png
     alt: "Syringe Pump"
     title: "Motorized Syringe Pump"
     excerpt: "Designed for precision and adaptability."
