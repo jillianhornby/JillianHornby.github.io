@@ -17,16 +17,47 @@ Syringe pumps have many applications, particularly in the medical field. This mo
 # Features
 
 * **Custom Flow Rate.** The flow rate can be specified for each user for a custom experience. 
-* **Holds two syringe sizes.** Special support pieces were developed in CAD to be able to securely hold two different sizes of syringe pumps for a more versatile product. 
+* **Two Syringe Sizes.** Special support pieces were developed in CAD to be able to securely hold two different sizes of syringe pumps for a more versatile product. 
 * **LED Notification System.** An LED light outputs different colors depending on whether the syringe pump is on, off, or actively running. 
+
+# How to Operate the Syringe Pump
+Place a syringe pump filled with the desired fluid in the 3D-printed holders. The syringe pump is then operated with 3 buttons. The leftmost button is the "ON/OFF" button, which gives power to the system. The rightmost button is the "FORWARD" button, which causes the syringe pump to start moving foward at it's specified flow rate. The middle button is the "BACKWARDS" button, which brings the syringe pump back to its original position. The flow rate can be specified in the Arduino code. 
 
 # CAD Model
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a4c6a1055b32dea03a?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" frameborder="0"></iframe>
 
+# Arduino Code
+[Arduino Code](https://github.com/jillianhornby/SyringePump/blob/main/Linear_Actuator_Code.ino)
+
 # Off-the-Shelf Parts Required
+Part | Specification | Amount
+--- | ---
+Coupler | | 1
+Flanged Ball Bearing | F688ZZ | 1
+Lead Screw | TR8x8x250mm | 1
+Linear Rod | 8mmx200mm | 1
+Linear Bearing | LM8UU | 1
+Lock Collar for Lead Screw | | 1
+Lock Collar for Linear Rod | | 3
+Thread Forming Screw | M3x8 | 4
+Bolt | M3x10 | 4
+Tee Nut | M5 | 4
+Bolt | M5x8 | 8
+Mean Well Power Supply | RT-65D | 
+Motor | NEMA-17 | 1
+Nut | TR8x8-4 | 1
+V-Slot | 20x40x350 | 1
+
 
 # 3D-Printed Parts Required
-
-# How to Operate the Syringe Pump
+Part | Amount
+--- | ---
+Motor Mount Plate | 1
+Left End Support | 1
+Right End Support | 1
+Middle Support | 1
+Carriage | 1
+Enclosure Base | 1
+Enclosure Lid | 1
 
 {% include gallery caption="Syringe Pump Project Gallery" %}
