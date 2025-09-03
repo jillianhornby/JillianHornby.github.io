@@ -50,8 +50,9 @@ February 2021 - December 2022
 
 ## Technical Skills
 
+* Digital Fabrication: Fusion 360, 3D-printing, laser cutting
 * Programming Languages: C++, Python, MATLAB, Java, SQL, Verilog
-* Tools & Design: Cadence Virtuoso, LTSpice, Altium, Fusion 360, Quartus
+* Electrical Tools & Design: Cadence Virtuoso, LTSpice, Altium, Quartus
 * Data & ML: TensorFlow, scikit-learn, Pandas, OpenCV
 * Cloud/DevOps: AWS, Git, Postman
 
