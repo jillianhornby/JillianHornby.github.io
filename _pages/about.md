@@ -20,7 +20,7 @@ June 2025 - August 2025
 * Developed data analysis software in Python to reduce time required for dielectric material characterization and failure analysis
 * Fabricated and tested small-scale capacitors to contribute to exploratory research on dielectric material performance
 
-**Vanderbilt Aerospace Design Lab (Rocket Team) | Nashville, TN**   
+**Vanderbilt Aerospace Design Lab | Nashville, TN**   
   *Electrical Engineer - Payload*   
   July 2024 - August 2025   
 * Developed RF and sensor electronics for a rocket-flyable payload using Raspberry Pi and IMU sensors (C++) 
