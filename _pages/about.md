@@ -62,7 +62,8 @@ February 2021 - December 2022
 August 2022 - present   
 *Team Leader*   
 * Led a group of 10 engineers to adapt a recumbent bike by developing a new 3D-printed system for the gears and brakes
-* Led 3 pediatric mobility projects ( “Go Baby Go”) involving complete rewiring of electrical systems in children's cars and creating custom 3D-printed controls   
+* Led 3 pediatric mobility projects ( “Go Baby Go”) involving complete rewiring of electrical systems in children's cars and creating custom 3D-printed controls
+   
 *Recruitment Chair (Fall 2023)*
 * Successfully recruited 150 members to participate in a hands-on engineering club that creates affordable and customized products for disabled clients
 
