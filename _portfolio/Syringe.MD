@@ -31,19 +31,19 @@ Place a syringe pump filled with the desired fluid in the 3D-printed holders. Th
 
 # Off-the-Shelf Parts Required
 Part | Specification | Amount
---- | ---
-Coupler | | 1
+--- | --- | ---
+Coupler | N/A | 1
 Flanged Ball Bearing | F688ZZ | 1
 Lead Screw | TR8x8x250mm | 1
 Linear Rod | 8mmx200mm | 1
 Linear Bearing | LM8UU | 1
-Lock Collar for Lead Screw | | 1
-Lock Collar for Linear Rod | | 3
+Lock Collar for Lead Screw | N/A | 1
+Lock Collar for Linear Rod | N/A | 3
 Thread Forming Screw | M3x8 | 4
 Bolt | M3x10 | 4
 Tee Nut | M5 | 4
 Bolt | M5x8 | 8
-Mean Well Power Supply | RT-65D | 
+Mean Well Power Supply | RT-65D | 1
 Motor | NEMA-17 | 1
 Nut | TR8x8-4 | 1
 V-Slot | 20x40x350 | 1
