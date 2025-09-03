@@ -1,5 +1,5 @@
 ---
-title: "Example Web Page"
+title: "Digital Fabrication Portfolio"
 layout: splash
 header:
   overlay_color: "#000"
@@ -8,7 +8,7 @@ header:
   actions:
     - label: "My Projects"
       url: "/portfolio/"
-excerpt: "Dr. David Florian is an engineer with a passion for teaching and the open-source community. His area of expertise is 3D printing, with an emphasis on large format pellet extrusion and selective laser sintering."
+excerpt: "I am an undergraduate student studying Electrical & Computer Engineering at Vanderbilt University with a minor in Digital Fabrication. This portfolio showcases the projects I've worked on in my Digital Fabrication classes along with the skills I've obtained."
 feature_row:
   - image_path: assets/img/CNC-Mill-Thumbnail.jpg
     alt: "CNC Mill"
