@@ -81,4 +81,4 @@ March 2020 - June 2022
 * National Merit Scholar
 * Dean's List (Fall 2022, Spring 2023, Fall 2023, Spring 2024, Fall 2024)
 
-![Jillian Hornby](/assets/img/Hornby_Wyatt_Headshot.jpg)
+![Jillian Hornby](/assets/img/Hornby_Wyatt_Headshot.JPG)
