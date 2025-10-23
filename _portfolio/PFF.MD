@@ -26,7 +26,7 @@ Even outside of the biomedical field, PFF can provide incredibly useful diagnost
 ## Sorting Geometry
 The particles leaving the pinched region are described by the following relationship:  
 <p style="font-family: Arial, sans-serif; font-size: 16px;">
-  Y<sub>0</sub> = ((w<sub>p</sub> − D/2) · w<sub>b</sub>) / w<sub>p</sub>
+  Y<sub>0</sub> = (w<sub>p</sub> − D/2) · (w<sub>b</sub> / w<sub>p</sub>)
 </p>
 
 ## Symmetric vs. Asymmetric Approach
