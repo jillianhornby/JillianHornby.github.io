@@ -33,9 +33,10 @@ where Y<sub>0</sub> is the position of the particle in the broad section, w<sub>
 The outlet boundaries were placed along these paths to effectively collect each particle. The developed microfluidic device had to sort two particles whose sizes fell into the following ranges: 
 1. 125 – 150 um
 2. 425 – 500 um
+
 The design had to fit onto a 50 mm x 75 mm chip, so a broad section width of 42 mm was selected to maximize separation while still leaving room at the edges to create the mold. A pinched width of 750 um was selected to ensure the particles would fit without getting stuck in this section. Plugging these two values into the provided equation resulted in the following particle path position ranges:  
-Small particle path: 37.8 - 38.5 mm 
-Large particle path: 28.0 - 30.1 mm 
+* Small particle path: 37.8 - 38.5 mm 
+* Large particle path: 28.0 - 30.1 mm 
 
 The outlet channels were then centered around the midpoint of these paths with extra room provided to ensure accuracy.  
 
