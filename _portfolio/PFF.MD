@@ -40,7 +40,8 @@ The design had to fit onto a 50 mm x 75 mm chip, so a broad section width of 42 
 * Small particle path: 37.8 - 38.5 mm 
 * Large particle path: 28.0 - 30.1 mm 
 
-The outlet channels were then centered around the midpoint of these paths with extra room provided to ensure accuracy.  
+The outlet channels were then centered around the midpoint of these paths as seen in the diagram below with extra room provided to ensure accuracy.  
+
 
 ## Flow Balancing Problem
 While it is simple to predict the particle paths, it is difficult to actually collect the separated streams. Because each collection channel has different resistances, liquid can be diverted to a different channel with a lower resistance, sending particles into the wrong outlet. Because the buffer region has much more liquid than the particle channels, this problem is inevitable.  
