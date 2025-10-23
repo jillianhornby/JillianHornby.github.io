@@ -2,8 +2,8 @@
 title: "Microfluidic Sorting Device"
 excerpt: "A microfluidic device that sorts particles using pinched flow fractionation."
 header:
-  image: /assets/img/Assembly-Image.png
-  teaser: /assets/img/Syringe-Full.jpeg
+  image: /assets/img/casted_device.jpeg
+  teaser: /assets/img/test_setup.jpeg
 gallery:
   - image_path: assets/img/Syringe-Full.jpeg
   - image_path: assets/img/Syringe-Wiring.jpeg
@@ -23,6 +23,8 @@ In [one study](https://doi.org/10.1039/C5LC01014D), PFF was used to separate can
 Even outside of the biomedical field, PFF can provide incredibly useful diagnostic information. 
 
 # Design
+## Symmetric vs. Asymmetric Approach
+
 ## Sorting Geometry
 The particles leaving the pinched region are described by the following relationship:  
 <p style="font-family: Arial, sans-serif; font-size: 16px;">
@@ -40,9 +42,10 @@ The design had to fit onto a 50 mm x 75 mm chip, so a broad section width of 42 
 
 The outlet channels were then centered around the midpoint of these paths with extra room provided to ensure accuracy.  
 
-## Symmetric vs. Asymmetric Approach
-
 ## Flow Balancing Problem
+While it is simple to predict the particle paths, it is difficult to actually collect the separated streams. Because each collection channel has different resistances, liquid can be diverted to a different channel with a lower resistance, sending particles into the wrong outlet. Because the buffer region has much more liquid than the particle channels, this problem is inevitable.  
+
+To attempt to solve this problem, on-chip resistance was added to each channel so that each channel intakes the correct amount of flow. To calculate this, I determined the percentage of flow required by each channel to accurately separate the particles. The channels split the broad section width into three sections: the small particle channel had a width of 7.7 mm, the large particle channel had a width of 10.5 mm, and the buffer channel had a width of 23.8 mm. This meant that these channels had to intake 18.3%, 25%, and 56.7% of the total flow, respectively. Because resistance is proportional to the path length, and flow rate is inversely proportional to the path length (more resistance = less flow), the ratio of path lengths could be obtained using these percentages.
 
 ## Future Improvments
 
@@ -59,6 +62,9 @@ The outlet channels were then centered around the midpoint of these paths with e
 ## Resin Printing vs. Other Manufacturing Techniques
 
 ## Parylene Coating
+When resin molds are printed using vat photopolymerization, there is always residual uncured resin left in the mold, which inhibits PDMS cross-linking and therefore can create inaccurate molds due to loss of features or incomplete curing. Uncured resin is also toxic to cells, and many applications of microfluidic devices require working with biological particles. Typical post-treatment methods to remove uncured resin are not 100% accurate, and many of these methods (i.e. post-curing with heat or UV light) can cause warping, which can impact the dimensions of features that are critical in PFF.  
+
+Instead, resin molds can be [coated with parylene](https://doi.org/10.1039/D1LC00744K), which is an FDA-approved biocompatible polymer. Parylene not only provides a barrier that prevents uncured resin from interfering with PDMS cross-linking but also ensures the molds can be used to develop microfluidic devices for cell analysis.  
 
 ## Modifications for a Wider Range of Particle Sizes
 
