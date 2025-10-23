@@ -41,12 +41,14 @@ The design had to fit onto a 50 mm x 75 mm chip, so a broad section width of 42 
 * Large particle path: 28.0 - 30.1 mm 
 
 The outlet channels were then centered around the midpoint of these paths as seen in the diagram below with extra room provided to ensure accuracy.  
-
+![PFF Geometry](/assets/img/geometry.jpeg)
 
 ## Flow Balancing Problem
 While it is simple to predict the particle paths, it is difficult to actually collect the separated streams. Because each collection channel has different resistances, liquid can be diverted to a different channel with a lower resistance, sending particles into the wrong outlet. Because the buffer region has much more liquid than the particle channels, this problem is inevitable.  
 
 To attempt to solve this problem, on-chip resistance was added to each channel so that each channel intakes the correct amount of flow. To calculate this, I determined the percentage of flow required by each channel to accurately separate the particles. The channels split the broad section width into three sections: the small particle channel had a width of 7.7 mm, the large particle channel had a width of 10.5 mm, and the buffer channel had a width of 23.8 mm. This meant that these channels had to intake 18.3%, 25%, and 56.7% of the total flow, respectively. Because resistance is proportional to the path length, and flow rate is inversely proportional to the path length (more resistance = less flow), the ratio of path lengths could be obtained using these percentages.
+
+![Resistance Path Lengths](/assets/img/path_lengths.jpeg)
 
 ## Future Improvments
 
