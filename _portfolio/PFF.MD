@@ -57,6 +57,7 @@ TTo solve this problem, on-chip resistance was added so that each channel had th
 * Small particle channel = 7.7 mm (18.3%) 
 * Large particle channel = 10.5 mm (25%) 
 * Buffer channel = 23.8 mm (56.7%) 
+
 The resistance is proportional to the path length, and therefore the flow rate is inversely proportional to the path length. The ratio of the path lengths was then determined by finding the inverse of the flow percentages:  
 
 L<sub>small</sub> : L<sub>large</sub> : L<sub>buffer</sub> = 5.4545 : 4.0000 : 1.7647
