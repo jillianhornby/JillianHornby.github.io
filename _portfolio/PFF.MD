@@ -32,9 +32,7 @@ For this project, I chose a symmetric PFF design because I was working with part
 
 ## Sorting Geometry
 The particles leaving the pinched region are described by the following [relationship](https://doi.org/10.1021/ac049863r):  
-<p style="font-family: Arial, sans-serif; font-size: 16px;">
-  Y<sub>0</sub> = (w<sub>p</sub> − D/2) · (w<sub>b</sub> / w<sub>p</sub>)
-</p>
+Y<sub>0</sub> = (w<sub>p</sub> − D/2) · (w<sub>b</sub> / w<sub>p</sub>)
 where Y<sub>0</sub> is the position of the particle in the broad section, w<sub>p</sub> is the width of the pinched section, and w<sub>b</sub> is the width of the broad section. 
 
 The outlet boundaries were placed along these paths to effectively collect each particle. The developed microfluidic device had to sort two particles whose sizes fell into the following ranges: 
@@ -51,10 +49,17 @@ The outlet channels were then centered around the midpoint of these paths as see
 ![PFF Geometry](/assets/img/geometry.jpeg)
 
 ## Flow Balancing Problem
-While it is simple to predict the particle paths, it is difficult to actually collect the separated streams. Because each collection channel has different resistances, liquid can be diverted to a different channel with a lower resistance, sending particles into the wrong outlet. Because the buffer region has much more liquid than the particle channels, this problem is inevitable.  
+While it is simple to predict the particle paths, the separated streams can be distorted due to unequal outlet resistance. Fluid naturally follows the path of each resistance, which can cause particles to divert to the wrong outlet. Because the buffer channel carries much more liquid than the other particle channels, this problem is inevitable.  
 
-To attempt to solve this problem, on-chip resistance was added to each channel so that each channel intakes the correct amount of flow. To calculate this, I determined the percentage of flow required by each channel to accurately separate the particles. The channels split the broad section width into three sections: the small particle channel had a width of 7.7 mm, the large particle channel had a width of 10.5 mm, and the buffer channel had a width of 23.8 mm. This meant that these channels had to intake 18.3%, 25%, and 56.7% of the total flow, respectively. Because resistance is proportional to the path length, and flow rate is inversely proportional to the path length (more resistance = less flow), the ratio of path lengths could be obtained using these percentages.
-
+TTo solve this problem, on-chip resistance was added so that each channel had the correct amount of flow. This was done by varying the outlet lengths and introducing serpentine paths based on the required flow. The required flow percentages were determined by the channel entry widths in the broad section:  
+* Small particle channel = 7.7 mm (18.3%) 
+* Large particle channel = 10.5 mm (25%) 
+* Buffer channel = 23.8 mm (56.7%) 
+The resistance is proportional to the path length, and therefore the flow rate is inversely proportional to the path length. The ratio of the path lengths was then determined by finding the inverse of the flow percentages:  
+L<sub>small</sub>:L<sub>large</sub>:L<sub>buffer</sub> = 5.4545:4.0000:1.7647
+This ensured that each channel received the proper proportion of total flow to maintain symmetric operation despite having differing geometries. This ratio was then multiplied by 6 to increase resistance throughout the device to try to minimize distortions caused by outlet tubing:
+L<sub>small</sub>:L<sub>large</sub>:L<sub>buffer</sub> = 37.72:24.00:10.59
+These paths were then added to each outlet channel, incorporating serpentine geometries to fit the paths onto the chip.  
 ![Resistance Path Lengths](/assets/img/path_lengths.jpeg)
 
 ## Future Improvments
