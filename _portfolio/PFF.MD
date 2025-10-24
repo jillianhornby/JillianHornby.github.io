@@ -16,14 +16,19 @@ gallery:
 Pinched flow fractionation (PFF) is a simple technique for continuously separating particles by size in microfluidic devices. PFF utilizes a “pinched section” where two fluids merge inside a narrow channel, with one containing particles and one particle-free buffer. By adjusting their flow rates, the particles are pushed against the sidewall of the pinched region. When the flow enters a wider “broad section,” the particles follow different paths according to their size, allowing them to be continuously separated into different outlets. 
 
 ## Applications of Pinched Flow Fractionation
-PFF has many different applications, but it is of particular interest to the biomedical field because it enables continuous separation of biological particles by size in order to isolate and analyze them.  
+PFF has a wide range of applications across biotechnology, environmental monitoring, and industrial diagnostics. PFF is of particular interest in the biomedical field because it enables continuous separation of biological particles by size in order to isolate and analyze them.  
 
-In [one study](https://doi.org/10.1039/C5LC01014D), PFF was used to separate cancer cells from white blood cells with an accuracy of over 90%. Circulating tumor cells (CTCs) can be shed from tumors and released into the bloodstream, which can result in metastasis. PFF presents an opportunity to isolate CTCs for cancer monitoring quickly and inexpensively compared to current methods.  
+In [one study](https://doi.org/10.1039/C5LC01014D), PFF was used to separate cancer cells from white blood cells with over 90% efficiency. Despite having overlapping particle sizes, PFF was so efficient because it took advantage of cell deformability. Because white blood cells deform more, they followed tighter trajectories, whereas the stiffer cancer cells followed wider trajectories.  
 
-Even outside of the biomedical field, PFF can provide incredibly useful diagnostic information. 
+Circulating tumor cells (CTCs) shed from tumors into the bloodstream, which can result in metastasis. Analyzing CTCs plays a critical role in cancer monitoring; however, traditional CTC separation techniques, such as immunomagnetic capture and fluorescence-activated cell sorting, often require expensive equipment and biochemical labels to effectively sort particles. In contrast, PFF provides a low-cost alternative that relies solely on size and deformability differences between cell types. 
 
 # Design
 ## Symmetric vs. Asymmetric Approach
+When choosing the geometry for a PFF microfluidic system, the first step is to choose between a symmetric or an asymmetric approach. In symmetric PFF, all branch channels have the same flow resistance and therefore there is uniform flow distribution across the outlets. This technique relies on the natural separation of particles into different streamlines based on their size. Because this separation distance is limited by widths of the pinched and broad sections, very small particles or particles with small size differences are less likely to be separated successfully using symmetric PFF. 
+
+Asymmetric PFF can overcome this limitation by introducing differences in outlet channel resistance, typically by shortening or widening the buffer channel. This creates an unequal distribution of flow, which increases particle separation in the pinched region. As a result, an asymmetric PFF design can achieve more efficient separation and can handle a wider range of particle sizes.  
+
+For this project, I chose a symmetric PFF design because I was working with particles that had a large size difference. A symmetric design simplifies the design and operation of microfluidic devices and ensures any differences in particle distribution are directly related to hydraulic resistance. I used a three-outlet design: one outlet for small particles, one outlet for large particles, and one buffer outlet. Because size constraints limited the outlet channels from having the same length and width, I had to change the geometry of each outlet path to ensure they had the same flow rate for a symmetric PFF design.  
 
 ## Sorting Geometry
 The particles leaving the pinched region are described by the following [relationship](https://doi.org/10.1021/ac049863r):  
