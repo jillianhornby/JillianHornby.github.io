@@ -32,7 +32,9 @@ For this project, I chose a symmetric PFF design because I was working with part
 
 ## Sorting Geometry
 The particles leaving the pinched region are described by the following [relationship](https://doi.org/10.1021/ac049863r):  
+
 Y<sub>0</sub> = (w<sub>p</sub> − D/2) · (w<sub>b</sub> / w<sub>p</sub>)
+
 where Y<sub>0</sub> is the position of the particle in the broad section, w<sub>p</sub> is the width of the pinched section, and w<sub>b</sub> is the width of the broad section. 
 
 The outlet boundaries were placed along these paths to effectively collect each particle. The developed microfluidic device had to sort two particles whose sizes fell into the following ranges: 
@@ -56,9 +58,13 @@ TTo solve this problem, on-chip resistance was added so that each channel had th
 * Large particle channel = 10.5 mm (25%) 
 * Buffer channel = 23.8 mm (56.7%) 
 The resistance is proportional to the path length, and therefore the flow rate is inversely proportional to the path length. The ratio of the path lengths was then determined by finding the inverse of the flow percentages:  
-L<sub>small</sub>:L<sub>large</sub>:L<sub>buffer</sub> = 5.4545:4.0000:1.7647
+
+L<sub>small</sub> : L<sub>large</sub> : L<sub>buffer</sub> = 5.4545 : 4.0000 : 1.7647
+
 This ensured that each channel received the proper proportion of total flow to maintain symmetric operation despite having differing geometries. This ratio was then multiplied by 6 to increase resistance throughout the device to try to minimize distortions caused by outlet tubing:
-L<sub>small</sub>:L<sub>large</sub>:L<sub>buffer</sub> = 37.72:24.00:10.59
+
+L<sub>small</sub> : L<sub>large</sub> : L<sub>buffer</sub> = 37.72 : 24.00 : 10.59
+
 These paths were then added to each outlet channel, incorporating serpentine geometries to fit the paths onto the chip.  
 ![Resistance Path Lengths](/assets/img/path_lengths.jpeg)
 
