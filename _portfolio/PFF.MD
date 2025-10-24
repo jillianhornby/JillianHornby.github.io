@@ -38,6 +38,7 @@ The particles leaving the pinched region are described by the following [relatio
 where Y<sub>0</sub> is the position of the particle in the broad section, w<sub>p</sub> is the width of the pinched section, and w<sub>b</sub> is the width of the broad section. 
 
 The outlet boundaries were placed along these paths to effectively collect each particle. The developed microfluidic device had to sort two particles whose sizes fell into the following ranges: 
+
 (1) 125 – 150 um
 (2) 425 – 500 um
 
