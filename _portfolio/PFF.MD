@@ -91,3 +91,4 @@ Instead, resin molds can be [coated with parylene](https://doi.org/10.1039/D1LC0
 ## Modifications for a Wider Range of Particle Sizes
 
 ## Lower Limit on Particle Size
+The lower limit on particle size that can be separated with PFF is determined by the surface roughness of the printed mold. Because the mold was fabricated using resin printing, the surface roughness is approximately equal to the printer’s resolution. In the pinched region, small particles are forced toward the sidewall. If particle size is on the same scale or smaller than surface imperfections, their motion may become unpredictable, or they may get stuck.  
