@@ -23,6 +23,9 @@ In [one study](https://doi.org/10.1039/C5LC01014D), PFF was used to separate can
 Circulating tumor cells (CTCs) shed from tumors into the bloodstream, which can result in metastasis. Analyzing CTCs plays a critical role in cancer monitoring; however, traditional CTC separation techniques, such as immunomagnetic capture and fluorescence-activated cell sorting, often require expensive equipment and biochemical labels to effectively sort particles. In contrast, PFF provides a low-cost alternative that relies solely on size and deformability differences between cell types. 
 
 # Design
+## CAD Model
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b6028112a0db2cd8e243870?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+
 ## Symmetric vs. Asymmetric Approach
 When choosing the geometry for a PFF microfluidic system, the first step is to choose between a symmetric or an asymmetric approach. In symmetric PFF, all branch channels have the same flow resistance and therefore there is uniform flow distribution across the outlets. This technique relies on the natural separation of particles into different streamlines based on their size. Because this separation distance is limited by widths of the pinched and broad sections, very small particles or particles with small size differences are less likely to be separated successfully using symmetric PFF. 
 
