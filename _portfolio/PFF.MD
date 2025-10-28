@@ -82,9 +82,12 @@ I also noticed while testing that when I changed the outlet tubing heights, the 
 # Instructions for Creating a Microfluidic Device with Resin Printing
 1. Develop CAD model
 2. Resin print the device
+![Resin-printed Mold](/assets/img/mold.jpeg)
 3. Post-process the print
-4. Create PDMS mold
+4. Create PDMS device
+![Casted PDMS Microfluidic Device](/assets/img/casted_device.jpeg)
 5. Test device and iterate
+![Microfluidic Device Test Setup](/assets/img/test_setup_large.jpeg)
 
 
 # Discussion
