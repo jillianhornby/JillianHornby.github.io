@@ -70,7 +70,11 @@ These paths were then added to each outlet channel, incorporating serpentine geo
 ![Resistance Path Lengths](/assets/img/path_lengths.jpeg)
 
 ## Future Improvments
+While testing my design, a vortex formed in the center of the broad section that disrupted laminar flow and caused particles to recirculate instead of reaching the outlets. The issue appeared to be related to unequal back pressures in the outlet tubing. Because each outlet had a separate tube that was not fixed, differences in height can create uneven flow resistance between outlets. Additionally, the height difference between tubes likely caused a siphon effect, where gravity acting on one outlet created a vacuum that pulled fluid from the others. These issues caused uneven flow and resulted in some liquid flowing back into the device, both of which likely contributed to the vortex.   
 
+If I could iterate on this design, I would develop a separate part that could hold outlet tubing in place at similar heights. However, because even small differences in tube elevation can cause significant pressure imbalances, I would also apply negative pressure at the outlets to further eliminate siphoning and backflow. This could be done by using syringe pumps attached to linear actuators at each outlet to limit the effect of gravity on the system.  
+
+I also noticed while testing that when I changed the outlet tubing heights, the flow changed due to altered outlet resistances and the particles started to flow toward the outlets. This change in resistance resulted in an asymmetric PFF operation that cleared the vortex. Because of this, I would also be interested in developing an asymmetric system by decreasing the resistance in the buffer channel to break the recirculating flow.     
 
 # Instructions for Creating a Microfluidic Device with Resin Printing
 1. Develop CAD model
