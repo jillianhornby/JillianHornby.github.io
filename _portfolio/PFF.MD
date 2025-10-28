@@ -82,6 +82,11 @@ These paths were then added to each outlet channel, incorporating serpentine geo
 
 # Discussion
 ## Resin Printing vs. Other Manufacturing Techniques
+For this project, resin printing was chosen over other manufacturing techniques because it provides the best geometric accuracy and surface finish required for microfluidic devices. Resin printing has the micron-scale resolution required to create small PFF features, while other additive manufacturing methods such as filament printing or powder bed fusion do not have the necessary precision to replicate the micron-scale geometries.  
+
+The surface finish of resin printed molds is very smooth compared to these other methods as well. This is very important when demolding because surface roughness can cause PDMS to stick or tear during removal, which can damage critical features. Further, surface irregularities from rough molds can transfer to the PDMS device, creating flow disturbances that could alter laminar flow. While multijet printing can achieve similarly smooth surfaces and high resolution, it is significantly more expensive than resin printing.  
+
+Even compared to soft lithography, which is traditionally used to create microfluidic molds, resin printing is much faster and more accessible. Soft lithography requires photomasks and many processing steps that are time-consuming and expensive.  Resin printing can achieve comparable feature sizes directly from a CAD model without specialized equipment. Overall, resin printing provides the best combination of resolution, surface quality, cost, and accessibility 
 
 ## Parylene Coating
 When resin molds are printed using vat photopolymerization, there is always residual uncured resin left in the mold, which inhibits PDMS cross-linking and therefore can create inaccurate molds due to loss of features or incomplete curing. Uncured resin is also toxic to cells, and many applications of microfluidic devices require working with biological particles. Typical post-treatment methods to remove uncured resin are not 100% accurate, and many of these methods (i.e. post-curing with heat or UV light) can cause warping, which can impact the dimensions of features that are critical in PFF.  
