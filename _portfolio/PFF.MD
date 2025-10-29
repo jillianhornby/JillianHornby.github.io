@@ -18,6 +18,7 @@ In [one study](https://doi.org/10.1039/C5LC01014D), PFF was used to separate can
 
 Circulating tumor cells (CTCs) shed from tumors into the bloodstream, which can result in metastasis. Analyzing CTCs plays a critical role in cancer monitoring; however, traditional CTC separation techniques, such as immunomagnetic capture and fluorescence-activated cell sorting, often require expensive equipment and biochemical labels to effectively sort particles. In contrast, PFF provides a low-cost alternative that relies solely on size and deformability differences between cell types. 
 
+
 # Design
 ## CAD Model
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b6028112a0db2cd8e243870?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
@@ -74,6 +75,7 @@ While testing my design, a vortex formed in the center of the broad section that
 If I could iterate on this design, I would develop a separate part that could hold outlet tubing in place at similar heights. However, because even small differences in tube elevation can cause significant pressure imbalances, I would also apply negative pressure at the outlets to further eliminate siphoning and backflow. This could be done by using syringe pumps attached to linear actuators at each outlet to limit the effect of gravity on the system.  
 
 I also noticed while testing that when I changed the outlet tubing heights, the flow changed due to altered outlet resistances and the particles started to flow toward the outlets. This change in resistance resulted in an asymmetric PFF operation that cleared the vortex. Because of this, I would also be interested in developing an asymmetric system by decreasing the resistance in the buffer channel to break the recirculating flow.     
+
 
 # Instructions for Creating a Microfluidic Device with Resin Printing
 **(1.) Develop CAD model**
