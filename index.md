@@ -14,6 +14,10 @@ feature_row:
     alt: "Syringe Pump"
     title: "Motorized Syringe Pump"
     excerpt: "Designed for precision and adaptability."
+  - image_path: assets/img/test_setup.jpeg
+    alt: "Microfluidic Device"
+    title: "Microfluidic Sorting Device"
+    excerpt: "Designed for precision and adaptability."
 ---
 
 {% include feature_row %}
