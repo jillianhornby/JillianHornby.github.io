@@ -4,10 +4,6 @@ excerpt: "A microfluidic device that sorts particles using pinched flow fraction
 header:
   image: /assets/img/casted_device.jpeg
   teaser: /assets/img/test_setup.jpeg
-gallery:
-  - image_path: assets/img/Syringe-Full.jpeg
-  - image_path: assets/img/Syringe-Wiring.jpeg
-  - image_path: assets/img/Syringe-Electrical.jpeg
    
 ---
 
