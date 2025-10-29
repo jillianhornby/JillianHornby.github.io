@@ -13,12 +13,12 @@ gallery:
 
 # Introduction
 ## Pinched Flow Fractionation
-Pinched flow fractionation (PFF) is a simple technique for continuously separating particles by size in microfluidic devices. PFF utilizes a “pinched section” where two fluids merge inside a narrow channel, with one containing particles and one particle-free buffer. By adjusting their flow rates, the particles are pushed against the sidewall of the pinched region. When the flow enters a wider “broad section,” the particles follow different paths according to their size, allowing them to be continuously separated into different outlets. 
+Pinched flow fractionation (PFF) is a simple technique for continuously separating particles by size in microfluidic devices. PFF utilizes a “pinched section” where two fluids merge inside a narrow channel, with one containing particles and one being a particle-free buffer. By adjusting their flow rates, the particles are pushed against the sidewall of the pinched region. When the flow enters a wider “broad section,” the particles follow different paths according to their size, allowing them to be continuously separated into different outlets. 
 
 ## Applications of Pinched Flow Fractionation
-PFF has a wide range of applications across biotechnology, environmental monitoring, and industrial diagnostics. PFF is of particular interest in the biomedical field because it enables continuous separation of biological particles by size in order to isolate and analyze them.  
+PFF has a [wide range of applications](https://doi.org/10.1016/j.cep.2024.110087) across biotechnology, environmental monitoring, and industrial diagnostics. PFF is of particular interest in the biomedical field because it enables continuous separation of biological particles by size in order to isolate and analyze them.  
 
-In [one study](https://doi.org/10.1039/C5LC01014D), PFF was used to separate cancer cells from white blood cells with over 90% efficiency. Despite having overlapping particle sizes, PFF was so efficient because it took advantage of cell deformability. Because white blood cells deform more, they followed tighter trajectories, whereas the stiffer cancer cells followed wider trajectories.  
+In [one study](https://doi.org/10.1039/C5LC01014D), PFF was used to separate cancer cells from white blood cells with over 90% efficiency. Even though the different cells had overlapping sizes, PFF was so efficient because it took advantage of cell deformability. Because white blood cells deform more, they followed tighter trajectories, whereas the stiffer cancer cells followed wider trajectories. 
 
 Circulating tumor cells (CTCs) shed from tumors into the bloodstream, which can result in metastasis. Analyzing CTCs plays a critical role in cancer monitoring; however, traditional CTC separation techniques, such as immunomagnetic capture and fluorescence-activated cell sorting, often require expensive equipment and biochemical labels to effectively sort particles. In contrast, PFF provides a low-cost alternative that relies solely on size and deformability differences between cell types. 
 
@@ -34,13 +34,13 @@ Asymmetric PFF can overcome this limitation by introducing differences in outlet
 For this project, I chose a symmetric PFF design because I was working with particles that had a large size difference. A symmetric design simplifies the design and operation of microfluidic devices and ensures any differences in particle distribution are directly related to hydraulic resistance. I used a three-outlet design: one outlet for small particles, one outlet for large particles, and one buffer outlet. Because size constraints limited the outlet channels from having the same length and width, I had to change the geometry of each outlet path to ensure they had the same flow rate for a symmetric PFF design.  
 
 ## Sorting Geometry
-The particles leaving the pinched region are described by the following [relationship](https://doi.org/10.1021/ac049863r):  
+The particles leaving the pinched point follow paths described by the following [relationship](https://doi.org/10.1021/ac049863r):  
 
 Y<sub>0</sub> = (w<sub>p</sub> − D/2) · (w<sub>b</sub> / w<sub>p</sub>)
 
-where Y<sub>0</sub> is the position of the particle in the broad section, w<sub>p</sub> is the width of the pinched section, and w<sub>b</sub> is the width of the broad section. 
+Where D is the diameter of the particle, Y<sub>0</sub> is the position of the particle in the broad section, w<sub>p</sub> is the width of the pinched section, and w<sub>b</sub> is the width of the broad section. 
 
-The outlet boundaries were placed along these paths to effectively collect each particle. The developed microfluidic device had to sort two particles whose sizes fell into the following ranges: 
+The microfluidic device had to sort two particles whose sizes fell into the following ranges: 
 
 (1) 125 – 150 um
 
@@ -50,16 +50,16 @@ The design had to fit onto a 50 mm x 75 mm chip, so a broad section width of 42 
 * Small particle path: 37.8 - 38.5 mm 
 * Large particle path: 28.0 - 30.1 mm 
 
-The outlet channels were then centered around the midpoint of these paths as seen in the diagram below with extra room provided to ensure accuracy.  
+The outlet channels were then centered around the midpoint of these paths as seen in the diagram below with added tolerance.
 ![PFF Geometry](/assets/img/geometry.jpeg)
 
 ## Flow Balancing Problem
-While it is simple to predict the particle paths, the separated streams can be distorted due to unequal outlet resistance. Fluid naturally follows the path of each resistance, which can cause particles to divert to the wrong outlet. Because the buffer channel carries much more liquid than the other particle channels, this problem is inevitable.  
+While it is simple to predict the particle paths, the separated streams can be distorted due to unequal outlet resistance. Fluid follows the path of least resistance, which can cause particles to divert to the wrong outlet. Because the buffer channel carries much more liquid than the other particle channels, this problem is inevitable.  
 
 To solve this problem, on-chip resistance was added so that each channel had the correct amount of flow. This was done by varying the outlet lengths and introducing serpentine paths based on the required flow. The required flow percentages were determined by the channel entry widths in the broad section:  
-* Small particle channel = 7.7 mm (18.3%) 
-* Large particle channel = 10.5 mm (25%) 
-* Buffer channel = 23.8 mm (56.7%) 
+* Small particle channel entry width = 7.7 mm (18.3%) 
+* Large particle channel entry width = 10.5 mm (25%) 
+* Buffer channel entry width = 23.8 mm (56.7%) 
 
 The resistance is proportional to the path length, and therefore the flow rate is inversely proportional to the path length. The ratio of the path lengths was then determined by finding the inverse of the flow percentages:  
 
@@ -109,9 +109,9 @@ I also noticed while testing that when I changed the outlet tubing heights, the 
 ## Resin Printing vs. Other Manufacturing Techniques
 For this project, resin printing was chosen over other manufacturing techniques because it provides the best geometric accuracy and surface finish required for microfluidic devices. Resin printing has the micron-scale resolution required to create small PFF features, while other additive manufacturing methods such as filament printing or powder bed fusion do not have the necessary precision to replicate the micron-scale geometries.  
 
-The surface finish of resin printed molds is very smooth compared to these other methods as well. This is very important when demolding because surface roughness can cause PDMS to stick or tear during removal, which can damage critical features. Further, surface irregularities from rough molds can transfer to the PDMS device, creating flow disturbances that could alter laminar flow. While multijet printing can achieve similarly smooth surfaces and high resolution, it is significantly more expensive than resin printing.  
+The surface finish of resin printed molds is very smooth compared to these other methods as well. This is very important when demolding because surface roughness can cause PDMS to stick or tear during removal, which can damage critical features. Further, surface irregularities from rough molds can transfer to the PDMS device, creating flow disturbances that could affect laminar flow. While multijet printing can achieve similarly smooth surfaces and high resolution, it is significantly more expensive than resin printing.  
 
-Even compared to soft lithography, which is traditionally used to create microfluidic molds, resin printing is much faster and more accessible. Soft lithography requires photomasks and many processing steps that are time-consuming and expensive.  Resin printing can achieve comparable feature sizes directly from a CAD model without specialized equipment. Overall, resin printing provides the best combination of resolution, surface quality, cost, and accessibility 
+Even compared to soft lithography, which is traditionally used to create microfluidic molds, resin printing is much faster and more accessible. Soft lithography requires photomasks and many processing steps that are time-consuming and expensive.  Resin printing can achieve comparable feature sizes directly from a CAD model without specialized equipment. Overall, resin printing provides the best combination of resolution, surface quality, cost, and accessibility.
 
 ## Parylene Coating
 When resin molds are printed using vat photopolymerization, there is always residual uncured resin left in the mold, which inhibits PDMS cross-linking and therefore can create inaccurate molds due to loss of features or incomplete curing. Uncured resin is also toxic to cells, and many applications of microfluidic devices require working with biological particles. Typical post-treatment methods to remove uncured resin are not 100% accurate, and many of these methods (i.e. post-curing with heat or UV light) can cause warping, which can impact the dimensions of features that are critical in PFF.  
@@ -121,4 +121,4 @@ Instead, resin molds can be [coated with parylene](https://doi.org/10.1039/D1LC0
 ## Modifications for a Wider Range of Particle Sizes
 
 ## Lower Limit on Particle Size
-The lower limit on particle size that can be separated with PFF is determined by the surface roughness of the printed mold. Because the mold was fabricated using resin printing, the surface roughness is approximately equal to the printer’s resolution. In the pinched region, small particles are forced toward the sidewall. If particle size is on the same scale or smaller than surface imperfections, their motion may become unpredictable, or they may get stuck.  
+The lower limit on particle size that can be separated with PFF is determined by the surface roughness of the printed mold. When creating molds using resin printing, the surface roughness is approximately equal to the printer’s resolution. In the pinched region, small particles are forced toward the sidewall. If particle size is on the same scale or smaller than surface imperfections, their motion may become unpredictable, or they may get stuck.
