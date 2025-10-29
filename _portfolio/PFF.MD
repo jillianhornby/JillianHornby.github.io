@@ -56,7 +56,7 @@ The outlet channels were then centered around the midpoint of these paths as see
 ## Flow Balancing Problem
 While it is simple to predict the particle paths, the separated streams can be distorted due to unequal outlet resistance. Fluid naturally follows the path of each resistance, which can cause particles to divert to the wrong outlet. Because the buffer channel carries much more liquid than the other particle channels, this problem is inevitable.  
 
-TTo solve this problem, on-chip resistance was added so that each channel had the correct amount of flow. This was done by varying the outlet lengths and introducing serpentine paths based on the required flow. The required flow percentages were determined by the channel entry widths in the broad section:  
+To solve this problem, on-chip resistance was added so that each channel had the correct amount of flow. This was done by varying the outlet lengths and introducing serpentine paths based on the required flow. The required flow percentages were determined by the channel entry widths in the broad section:  
 * Small particle channel = 7.7 mm (18.3%) 
 * Large particle channel = 10.5 mm (25%) 
 * Buffer channel = 23.8 mm (56.7%) 
@@ -80,13 +80,28 @@ If I could iterate on this design, I would develop a separate part that could ho
 I also noticed while testing that when I changed the outlet tubing heights, the flow changed due to altered outlet resistances and the particles started to flow toward the outlets. This change in resistance resulted in an asymmetric PFF operation that cleared the vortex. Because of this, I would also be interested in developing an asymmetric system by decreasing the resistance in the buffer channel to break the recirculating flow.     
 
 # Instructions for Creating a Microfluidic Device with Resin Printing
-1. Develop CAD model
-2. Resin print the device
+(1.) Develop CAD model
+
+(2.) Resin print the mold
+
 ![Resin-printed Mold](/assets/img/mold.jpeg)
-3. Post-process the print
-4. Create PDMS device
+
+(3.) Post-process the print
+
+(4.) Coat the mold in parylene
+
+(5.) Cast the PDMS device
+
 ![Casted PDMS Microfluidic Device](/assets/img/casted_device.jpeg)
-5. Test device and iterate
+
+(6.) Plasma treat the PDMS device and the glass slide
+
+![Oxygen Plasma Treatment](/assets/img/Plasma-Cutter-Banner.jpg)
+
+(7.) Bond the PDMS device to the glass slide
+
+(8.) Test the device
+
 ![Microfluidic Device Test Setup](/assets/img/test_setup_large.jpeg)
 
 
