@@ -166,6 +166,9 @@ When resin molds are printed using vat photopolymerization, there is always resi
 Instead, resin molds can be [coated with parylene](https://doi.org/10.1039/D1LC00744K), which is an FDA-approved biocompatible polymer. Parylene not only provides a barrier that prevents uncured resin from interfering with PDMS cross-linking but also ensures the molds can be used to develop microfluidic devices for cell analysis.  
 
 ## Modifications for a Wider Range of Particle Sizes
+To sort more than just 2 particles, the broad section could be split into more outlet channels to allow collection of more particles. However, this approach requires particle sizes to have a large enough difference to ensure particle trajectories do not overlap. Further, the more outlets that get added results in more outlet resistances and tubing to account for that could cause disturbances.  
+
+Eventually, an asymmetric PFF design may become necessary to continue adding more particles since it would increase particle separation, which would allow particles with similar sizes to be sorted and provide the opportunity for more output channels to be used.  
 
 ## Lower Limit on Particle Size
 The lower limit on particle size that can be separated with PFF is determined by the surface roughness of the printed mold. When creating molds using resin printing, the surface roughness is approximately equal to the printer’s resolution. In the pinched region, small particles are forced toward the sidewall. If particle size is on the same scale or smaller than surface imperfections, their motion may become unpredictable, or they may get stuck.
