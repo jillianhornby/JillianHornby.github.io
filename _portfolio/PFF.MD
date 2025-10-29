@@ -96,7 +96,7 @@ I also noticed while testing that when I changed the outlet tubing heights, the 
 
 (6.) Plasma treat the PDMS device and the glass slide
 
-![Oxygen Plasma Treatment](/assets/img/Plasma-Cutter-Banner.jpg)
+![Oxygen Plasma Treatment](/assets/img/Plasma-Treating-Image.jpg)
 
 (7.) Bond the PDMS device to the glass slide
 
