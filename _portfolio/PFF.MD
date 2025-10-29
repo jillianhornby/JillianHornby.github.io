@@ -81,14 +81,24 @@ I also noticed while testing that when I changed the outlet tubing heights, the 
 
 # Instructions for Creating a Microfluidic Device with Resin Printing
 (1.) Develop CAD model
+The first step in fabricating the microfluidic device is creating a CAD model for the mold, using the geometry required to effectively separate particles using PFF as described throughout this report. To ensure the model can be resin printed, the dimensions must follow printer specifications:  
+* The part must fit within the printer’s build volume 
+* Feature sizes must be larger than the laser spot size 
+* Features must have separation larger than the minimum resolution 
+
+For this project, the device was modeled using Autodesk Fusion 360.  
 
 (2.) Resin print the mold
+
+The mold was fabricated using a Formlabs Form 4 resin printer. The layer thickness was selected to match the Z-resolution of the device, and the mold was oriented such that the bottom surface was perfectly flat and parallel to the resin vat.  
 
 ![Resin-printed Mold](/assets/img/mold.jpeg)
 
 (3.) Post-process the print
 
 (4.) Coat the mold in parylene
+
+To prevent PDMS curing inhibition caused by uncured resin, the mold was coated with a thin layer of parylene. This parylene barrier ensures that the mold can be successfully cast with PDMS and provides a non-stick layer that allows the PDMS device to be peeled off without tearing features.  
 
 (5.) Cast the PDMS device
 
