@@ -80,7 +80,7 @@ If I could iterate on this design, I would develop a separate part that could ho
 I also noticed while testing that when I changed the outlet tubing heights, the flow changed due to altered outlet resistances and the particles started to flow toward the outlets. This change in resistance resulted in an asymmetric PFF operation that cleared the vortex. Because of this, I would also be interested in developing an asymmetric system by decreasing the resistance in the buffer channel to break the recirculating flow.     
 
 # Instructions for Creating a Microfluidic Device with Resin Printing
-(1.) Develop CAD model
+**(1.) Develop CAD model**
 
 The first step in fabricating the microfluidic device is creating a CAD model for the mold, using the geometry required to effectively separate particles using PFF as described throughout this report. To ensure the model can be resin printed, the dimensions must follow printer specifications:  
 * The part must fit within the printer’s build volume 
@@ -89,19 +89,27 @@ The first step in fabricating the microfluidic device is creating a CAD model fo
 
 For this project, the device was modeled using Autodesk Fusion 360.  
 
-(2.) Resin print the mold
+**(2.) Resin print the mold**
 
 The mold was fabricated using a Formlabs Form 4 resin printer. The layer thickness was selected to match the Z-resolution of the device, and the mold was oriented such that the bottom surface was perfectly flat and parallel to the resin vat.  
 
 ![Resin-printed Mold](/assets/img/mold.jpeg)
 
-(3.) Post-process the print
+**(3.) Post-process the print**
 
-(4.) Coat the mold in parylene
+After printing, the mold was post-processed to remove uncured resin by following these steps:  
+1. Wash the mold in IPA for 5 minutes on the print bed 
+2. Remove the mold from the bed and wash it in IPA for another 5 minutes 
+3. Allow the mold to dry upside down for 30 minutes 
+4. Gently blow any debris out of the mold using compressed air 
+5. Cure the mold under UV light for 60 seconds at room temperature 
+6. Remove support materials  
+
+**(4.) Coat the mold in parylene**
 
 To prevent PDMS curing inhibition caused by uncured resin, the mold was coated with a thin layer of parylene. This parylene barrier ensures that the mold can be successfully cast with PDMS and provides a non-stick layer that allows the PDMS device to be peeled off without tearing features.  
 
-(5.) Cast the PDMS device
+**(5.) Cast the PDMS device**
 
 A PDMS microfluidic device was created by pouring SYLGARD™ 184 Silicone Elastomer into the resin mold using a 10:1 mix ratio and curing the device under controlled temperature conditions.  
 
@@ -117,13 +125,13 @@ After curing, the PDMS was carefully peeled away from the mold to preserve chann
 
 ![Casted PDMS Microfluidic Device](/assets/img/casted_device.jpeg)
 
-(6.) Plasma treat the PDMS device and the glass slide
+**(6.) Plasma treat the PDMS device and the glass slide**
 
 Because one side of the device will always be left open after being cast, the PDMS device has to be permanently bonded to a glass slide. To create this bond, both surfaces were [treated with oxygen plasma](https://doi.org/10.3390/bios11080292). This process activates the surfaces by forming silanol groups, which bond covalently when brought into contact. 
 
 ![Oxygen Plasma Treatment](/assets/img/Plasma-Treating-Image.jpg)
 
-(7.) Bond the PDMS device to the glass slide
+**(7.) Bond the PDMS device to the glass slide**
 
 Immediately after plasma treatment, the PDMS device is carefully aligned and pressed onto the glass slide.  
 
@@ -131,7 +139,7 @@ If the channels are shallow (<0.2 mm), it is important to not press down on them
 
 The PDMS device was handled with Kimwipes to avoid contamination. 
 
-(8.) Test the device
+**(8.) Test the device**
 
 To test the device, polyethylene (PE) beads were suspended in a 3% Tween solution.  
 
