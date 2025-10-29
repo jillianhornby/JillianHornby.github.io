@@ -17,7 +17,7 @@ feature_row:
   - image_path: assets/img/test_setup.jpeg
     alt: "Microfluidic Device"
     title: "Microfluidic Sorting Device"
-    excerpt: "Designed for precision and adaptability."
+    excerpt: "Designed to sorts micro-scale particles based on size."
 ---
 
 {% include feature_row %}
