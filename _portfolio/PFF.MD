@@ -81,6 +81,7 @@ I also noticed while testing that when I changed the outlet tubing heights, the 
 
 # Instructions for Creating a Microfluidic Device with Resin Printing
 (1.) Develop CAD model
+
 The first step in fabricating the microfluidic device is creating a CAD model for the mold, using the geometry required to effectively separate particles using PFF as described throughout this report. To ensure the model can be resin printed, the dimensions must follow printer specifications:  
 * The part must fit within the printer’s build volume 
 * Feature sizes must be larger than the laser spot size 
@@ -101,6 +102,18 @@ The mold was fabricated using a Formlabs Form 4 resin printer. The layer thickne
 To prevent PDMS curing inhibition caused by uncured resin, the mold was coated with a thin layer of parylene. This parylene barrier ensures that the mold can be successfully cast with PDMS and provides a non-stick layer that allows the PDMS device to be peeled off without tearing features.  
 
 (5.) Cast the PDMS device
+
+A PDMS microfluidic device was created by casting SYLGARD™ 184 Silicone Elastomer into the resin mold using a 10:1 mix ratio and curing the device under controlled temperature conditions.  
+
+The following are options for cure time and temperature:  
+* 24 hours at 23°C, 
+* 4 hours at 65°C, 
+* 1 hour at 100°C, or 
+* 15 minutes at 150°C 
+
+However, because the Formlabs clear resin will crack at temperatures above 100°C, the PDMS was cured overnight at 55°C to ensure a complete cure without any warping.  
+
+After curing, the PDMS was carefully peeled away from the mold to preserve channel features 
 
 ![Casted PDMS Microfluidic Device](/assets/img/casted_device.jpeg)
 
