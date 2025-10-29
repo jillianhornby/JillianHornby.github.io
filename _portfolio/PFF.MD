@@ -103,7 +103,7 @@ To prevent PDMS curing inhibition caused by uncured resin, the mold was coated w
 
 (5.) Cast the PDMS device
 
-A PDMS microfluidic device was created by casting SYLGARD™ 184 Silicone Elastomer into the resin mold using a 10:1 mix ratio and curing the device under controlled temperature conditions.  
+A PDMS microfluidic device was created by pouring SYLGARD™ 184 Silicone Elastomer into the resin mold using a 10:1 mix ratio and curing the device under controlled temperature conditions.  
 
 The following are options for cure time and temperature:  
 * 24 hours at 23°C, 
@@ -119,11 +119,27 @@ After curing, the PDMS was carefully peeled away from the mold to preserve chann
 
 (6.) Plasma treat the PDMS device and the glass slide
 
+Because one side of the device will always be left open after being cast, the PDMS device has to be permanently bonded to a glass slide. To create this bond, both surfaces were [treated with oxygen plasma](https://doi.org/10.3390/bios11080292). This process activates the surfaces by forming silanol groups, which bond covalently when brought into contact. 
+
 ![Oxygen Plasma Treatment](/assets/img/Plasma-Treating-Image.jpg)
 
 (7.) Bond the PDMS device to the glass slide
 
+Immediately after plasma treatment, the PDMS device is carefully aligned and pressed onto the glass slide.  
+
+If the channels are shallow (<0.2 mm), it is important to not press down on them during the bonding process since this could cause the channels to stick to the glass slide.  
+
+The PDMS device was handled with Kimwipes to avoid contamination. 
+
 (8.) Test the device
+
+To test the device, polyethylene (PE) beads were suspended in a 3% Tween solution.  
+
+Independent syringe pumps were used to control the flow rate of the particle-containing stream and buffer stream: 
+* 3.0 mL/min for the buffer stream 
+* 0.6 mL/min for the particle stream 
+
+The device’s performance was evaluated by visually inspecting particle trajectories through the pinched and broad sections. 
 
 ![Microfluidic Device Test Setup](/assets/img/test_setup_large.jpeg)
 
