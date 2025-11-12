@@ -22,13 +22,16 @@ This project focuses on designing and fabricating a pair of multimaterial needle
 ## Design Process
 The pliers were developed using CAD software to design an assembly made up of two rigid jaws, two rigid handles, and one flexible center element that behaved like a spring. The rigid components were printed in PLA for strength and precision, while the flexible section was printed in TPU to replicate the behavior of a mechanical spring. The pieces were connected using dovetail joints, which provided a secure press fit that required no tools, post-processing, or adhesives to connect.  
  
-The flexible center was modeled as a diamond-shaped structure with an internal grid pattern that deformed under pressure, allowing the jaws to close when the handles are squeezed and returned to an open position when released. Multiple prototypes were printed to test different infill densities, in order to find the right balance between flexibility and strength. The following image shows the difference between a 30% infill (left) and a 20% infill (right).  
+The flexible center was modeled as a diamond-shaped structure with an internal grid pattern that deformed under pressure, allowing the jaws to close when the handles are squeezed and returned to an open position when released. Multiple prototypes were printed to test different infill densities, in order to find the right balance between flexibility and strength. The following image shows the difference between a 30% infill (left) and a 20% infill (right). 
+
 ![Infill Comparison](/assets/img/center-comparison.jpg)
 
 The rigid jaws and handles were modeled following traditional needle-nose pliers. To minimize material waste, the handle-jaw connection areas were printed first to ensure they had the correct fit before printing the full assembly as seen in the following image.
+
 ![Plier Connection](/assets/img/plier-connection.jpg)
 
 The initial jaw design came together at one point at the top, which was successful but had room for improvement. Two additional versions were then created: one with larger surface area at the tips for better gripping of resistors, and another with pointy jaws for better precision in small spaces. All three models can be seen in the following image.  
+
 ![Plier Models](/assets/img/three-models.jpg)
 
 The final design had the following specifications:  
