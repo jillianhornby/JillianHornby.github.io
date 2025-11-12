@@ -21,7 +21,7 @@ This project focuses on designing and fabricating a pair of multimaterial needle
 ## Design Process
 The pliers were developed using CAD software to design an assembly made up of two rigid jaws, two rigid handles, and one flexible center element that behaves like a spring. The rigid components were printed in PLA for strength and precision, while the flexible section was printed in TPU to replicate the behavior of a mechanical spring. The pieces were connected using dovetail joints, which provided a secure press fit that required no tools, post-processing, or adhesives to connect.  
  
-The flexible center was modeled as a diamond-shaped structure with an internal grid pattern that deformed under pressure, allowing the jaws to close when the handles are squeezed and returned to an open position when released. Multiple prototypes were printed to test different infill densities, in order to find the right balance between flexibility and strength. The following image shows the difference between a 30% infill (left) and a 20% infill (right). 
+The flexible center was modeled as a diamond-shaped structure with an internal grid pattern that deforms under pressure, allowing the jaws to close when the handles are squeezed and returned to an open position when released. Multiple prototypes were printed to test different infill densities, in order to find the right balance between flexibility and strength. The following image shows the difference between a 30% infill (left) and a 20% infill (right). 
 
 ![Infill Comparison](/assets/img/center-comparison.jpg)
 
