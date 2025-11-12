@@ -18,9 +18,6 @@ This project focuses on designing and fabricating a pair of multimaterial needle
 
 ![Pliers GIF](/assets/img/Video.gif)
 
-## CAD Model
-<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811792e4859d79881a4?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
-
 ## Design Process
 The pliers were developed using CAD software to design an assembly made up of two rigid jaws, two rigid handles, and one flexible center element that behaved like a spring. The rigid components were printed in PLA for strength and precision, while the flexible section was printed in TPU to replicate the behavior of a mechanical spring. The pieces were connected using dovetail joints, which provided a secure press fit that required no tools, post-processing, or adhesives to connect.  
  
@@ -44,3 +41,6 @@ The final design had the following specifications:
 The ideal print settings found for the flexible center were 30% infill and a fill density of 40% for a spring-like mechanism that was rigid enough to stay in place while still being easily deformable. Printing this part required setting the horizontal shells to zero so that only the inner grid pattern remained. The printer speed was also reduced to 40% of its maximum value to improve the accuracy of the thin grid lines in the flexible piece.  
 
 For the rigid handles and jaws, the printer used an infill of 15% since they were only being used to pick up resistors, so optimal mechanical strength was not a priority. These parts were printed at the maximum printer speed since they did not have as many small geometries.  
+
+## CAD Model
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811792e4859d79881a4?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
