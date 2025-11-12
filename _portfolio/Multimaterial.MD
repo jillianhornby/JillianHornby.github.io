@@ -2,8 +2,8 @@
 title: "Multimaterial Pliers"
 excerpt: "A microfluidic device that sorts particles using pinched flow fractionation."
 header:
-  image: /assets/img/test_setup.jpeg
-  teaser: /assets/img/test_setup.jpeg
+  image: /assets/img/three-models.jpg
+  teaser: /assets/img/three-models.jpg
    
 ---
 # Print-in-Place Models
