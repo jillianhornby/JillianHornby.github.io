@@ -18,7 +18,7 @@ feature_row:
     alt: "Microfluidic Device"
     title: "Microfluidic Sorting Device"
     excerpt: "Designed to sort micro-scale particles based on size."
-  - image_path: assets/img/three-models
+  - image_path: assets/img/three-models.jpg
     alt: "Multimaterial Pliers"
     title: "3D-Printed Multimaterial Pliers"
     excerpt: "Developed to require no post-processing."
