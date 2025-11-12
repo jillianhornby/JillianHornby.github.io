@@ -16,7 +16,7 @@ Due to irregularities when printing rigid materials, a combination of rigid and 
 # Multimaterial Pliers
 This project focuses on designing and fabricating a pair of multimaterial needle nose pliers capable of gripping and picking up through-hole resistors. The design incorporates rigid handles and jaws for durability and precision, along with a flexible joint that enables the spring-like motion. The flexible center allows the pliers to automatically return to an open position when not in use, to follow the behavior of traditional spring-loaded pliers. This approach provides an efficient solution for developing pliers using filament 3D printing technology. 
 
-![Pliers GIF]()
+![Pliers GIF](/assets/img/Video.gif)
 
 ## CAD Model
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811792e4859d79881a4?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
