@@ -17,7 +17,11 @@ feature_row:
   - image_path: assets/img/test_setup.jpeg
     alt: "Microfluidic Device"
     title: "Microfluidic Sorting Device"
-    excerpt: "Designed to sorts micro-scale particles based on size."
+    excerpt: "Designed to sort micro-scale particles based on size."
+  - image_path: assets/img/three-models
+    alt: "Multimaterial Pliers"
+    title: "3D-Printed Multimaterial Pliers"
+    excerpt: "Developed to require no post-processing."
 ---
 
 {% include feature_row %}
