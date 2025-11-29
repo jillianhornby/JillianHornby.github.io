@@ -8,7 +8,7 @@ header:
   actions:
     - label: "My Projects"
       url: "/portfolio/"
-excerpt: "I am an undergraduate student studying Electrical & Computer Engineering at Vanderbilt University with a minor in Digital Fabrication. This portfolio showcases the projects I've worked on in my Digital Fabrication classes along with the skills I've obtained."
+excerpt: "I am an Electrical & Computer Engineering student at Vanderbilt University with a minor in Digital Fabrication. This portfolio highlights hands-on projects where I design, build, and test functional prototypes using CAD, 3D-printing, embedded systems, and generative design. My projects include motorized systems, microfluidic devices, and generatively designed mechanical components, demonstrating my abilities in hands-on problem solving and iterative prototyping."
 feature_row:
   - image_path: assets/img/Syringe-Full.jpeg
     alt: "Syringe Pump"
@@ -17,11 +17,11 @@ feature_row:
   - image_path: assets/img/test_setup.jpeg
     alt: "Microfluidic Device"
     title: "Microfluidic Sorting Device"
-    excerpt: "Designed to sort micro-scale particles based on size."
+    excerpt: "Sorting micro-particles based on size alone."
   - image_path: assets/img/three-models.jpg
     alt: "Multimaterial Pliers"
     title: "3D-Printed Multimaterial Pliers"
-    excerpt: "Developed to require no post-processing."
+    excerpt: "Requires no post-processing."
 ---
 
 {% include feature_row %}
