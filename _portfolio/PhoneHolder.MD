@@ -2,8 +2,8 @@
 title: "Bike Phone Mount"
 excerpt: "3D-printed phone holder developed using a top-down modeling approach."
 header:
-  image: /assets/img/test_setup.jpeg
-  teaser: /assets/img/Phone-on-bar.jpg
+  image: /assets/img/Phone-Render-Long.png
+  teaser: /assets/img/Phone-Render-Long.png
 gallery:
   - image_path: assets/img/BikeConnect1.jpg
   - image_path: assets/img/BikeConnect2.jpg
@@ -33,3 +33,11 @@ To account for error in the 3D printing process, I added clearance to areas wher
 
 # CAD Model
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b60281138d89b4ccd9116e8?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+
+# Individual Components
+![Detent Base](/assets/img/Detent-Base-Render.png)
+![Detent Rotation](/assets/img/Detent-Rotation-Render.png)
+![Detent Cover](/assets/img/Detent-Plate-Render.png)
+![Phone Case](/assets/img/Phone-Case-Render.png)
+![Phone Connector](/assets/img/Phone-Connector-Render.png)
+
