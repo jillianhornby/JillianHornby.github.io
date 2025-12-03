@@ -25,4 +25,4 @@ The final design was printed using PETG for the clamp and detent mechanisms and 
 To account for error in the 3D printing process, I added clearance to areas where different parts are connected. I initially added clearance values of 1-2 mm to through-holes and connection areas since I was struggling with warping while using ABS. However, this was too much and once I switched to PETG I was able to use clearance values of 0.1-0.5 mm. For example, the diameter of the bike handle was 22.2 mm, and the 3D-printed clamp had a diameter of 22.4 mm to have a snug fit, whereas the rotation mechanism in the detent had a clearance of 0.5 mm to have more room to rotate.  
 
 # CAD Model
-[<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b60281138d89b4ccd9116e8?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>]
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b60281138d89b4ccd9116e8?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
