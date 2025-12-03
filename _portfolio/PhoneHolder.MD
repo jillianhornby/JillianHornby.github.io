@@ -41,3 +41,4 @@ To account for error in the 3D printing process, I added clearance to areas wher
 ![Phone Case](/assets/img/Phone-Case-Render.png)
 ![Phone Connector](/assets/img/Phone-Connector-Render.png)
 
+{% include gallery caption="Phone Holder Project Gallery" %}
