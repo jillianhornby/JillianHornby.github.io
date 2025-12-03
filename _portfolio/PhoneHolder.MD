@@ -3,7 +3,12 @@ title: "Bike Phone Mount"
 excerpt: "3D-printed phone holder developed using a top-down modeling approach."
 header:
   image: /assets/img/test_setup.jpeg
-  teaser: /assets/img/test_setup.jpeg
+  teaser: /assets/img/Phone-on-bar.jpg
+gallery:
+  - image_path: assets/img/BikeConnect1.jpg
+  - image_path: assets/img/BikeConnect2.jpg
+  - image_path: assets/img/Phone-on-bar.jpg
+  - image_path: assets/img/Heatsets.jpg
    
 ---
 
@@ -17,7 +22,8 @@ Top-down assembly modeling allows multiple components to be designed and assembl
 The phone holder design has three major sections: a clamp to attach to the handlebars, a detent mechanism to rotate the phone, and a phone case. The parts were designed to be assembled relatively simply, requiring only heat set inserts, screws, and nuts. 
 
 For the phone rotation, I chose to use a detent mechanism because it uses a spring-loaded ball mechanism that allows motion when a large enough force is applied but will resist movement when the ball moves into the detent. My design uses a compression spring and a ball bearing that are housed inside the holder, and a rotating piece with cut-outs in 4 corners. The design successfully holds the phone in the correct orientations while still allowing motion when physically turning it. This required trying different compression springs and ball bearings until it had the desired feel when turning and locking into place.  
-![Detent Mechanism Top View](/assets/img/Detent-Top.png) ![Detent Mechanism Side View](/assets/img/Detent-Side.png)
+![Detent Mechanism Top View](/assets/img/Detent-Top.png) ![Detent Mechanism Side View](/assets/img/Detent-Side.png) ![Detent Photo](/assets/img/DetentPic.jpg)
+![Detent Rotating](/assets/img/Detent-Rotate.GIF)
 
 I used filament 3D printing since my design used heat-set inserts to connect the components, which requires a thermoplastic design. Both filament printing and SLS printing are acceptable methods for this constraint, but filament printing is cheaper and more accessible.  
 
