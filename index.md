@@ -22,6 +22,10 @@ feature_row:
     alt: "Multimaterial Pliers"
     title: "3D-Printed Multimaterial Pliers"
     excerpt: "Requires no post-processing."
+  - image_path: assets/img/Phone-Render-Long.png
+    alt: "Phone Holder"
+    title: "Bike Phone Holder"
+    excerpt: "Developed using top-down modeling."
 ---
 
 {% include feature_row %}
