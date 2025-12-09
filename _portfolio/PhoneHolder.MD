@@ -27,7 +27,8 @@ For the phone rotation, I chose to use a detent mechanism because it uses a spri
   <img src="/assets/img/Detent-Top.png" alt="Detent Mechanism Top View" style="width: 100%;">
   <img src="/assets/img/Detent-Side.png" alt="Detent Mechanism Side View" style="width: 100%;">
   <img src="/assets/img/DetentPic.jpg" alt="Detent Photo" style="width: 100%;">
-<figcaption>Detent Model: Top View (Rendering), Side View (Fusion Model), Top View (3D-Printed Model) </figcaption>
+  <figcaption>Detent Model: Top View (Rendering), Side View (Fusion Model), Top View (3D-Printed Model) </figcaption>
+</figure>
 
 ![Detent Rotating](/assets/img/Detent-Rotate.GIF)
 
