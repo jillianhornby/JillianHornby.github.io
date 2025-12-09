@@ -38,9 +38,9 @@ To account for error in the 3D printing process, I added clearance to areas wher
 
 # Assembly
 To assemble the components after 3D-printing, heat set inserts were melted into the through holes in the detent mechanism base and in the phone connector to screw together the parts. The phone holder was attached to the bike handles by sliding the clamp on and tightening it using M3 screws and nuts. The phone holder can then support my phone and rotate to vertical and horizontal positions.  
-<img src="/assets/img/BikeConnect2.jpg" alt="Phone Holder Connection" style="width: 45%; margin-right: 10px; text-align: center;"">
+<img src="/assets/img/BikeConnect2.jpg" alt="Phone Holder Connection" style="width: 45%; margin-right: 10px; text-align: center;">
 <figcaption>Phone Holder Connection</figcaption>
-<img src="/assets/img/Heatsets.jpg" alt="Heatset Inserts" style="width: 45%; text-align: center;"">
+<img src="/assets/img/Heatsets.jpg" alt="Heatset Inserts" style="width: 45%; text-align: center;">
 <figcaption>Heatset Inserts</figcaption>
 
 
