@@ -29,7 +29,7 @@ For the phone rotation, I chose to use a detent mechanism because it uses a spri
   <img src="/assets/img/Detent-Top.png" alt="Detent Mechanism Top View" style="width: 31%;">
   <img src="/assets/img/Detent-Side.png" alt="Detent Mechanism Side View" style="width: 31%;">
   <img src="/assets/img/DetentPic.jpg" alt="Detent Photo" style="width: 31%;">
-  <figcaption>Detent Model: Top View (Rendering), Side View (Fusion Model), Top View (3D-Printed Model) </figcaption>
+  <figcaption>Detent Model: Top View (Rendering), Side View (Fusion Model), Physical Model</figcaption>
 </figure>
 
 ![Detent Rotating](/assets/img/Detent-Rotate.GIF)
@@ -43,10 +43,16 @@ To account for error in the 3D printing process, I added clearance to areas wher
 
 ## Assembly
 To assemble the components after 3D-printing, heat set inserts were melted into the through holes in the detent mechanism base and in the phone connector to screw together the parts. The phone holder was attached to the bike handles by sliding the clamp on and tightening it using M3 screws and nuts. The phone holder can then support my phone and rotate to vertical and horizontal positions.  
-<img src="/assets/img/BikeConnect2.jpg" alt="Phone Holder Connection" style="width: 45%; margin-right: 10px; text-align: center;">
-<figcaption>Phone Holder Connection</figcaption>
-<img src="/assets/img/Heatsets.jpg" alt="Heatset Inserts" style="width: 45%; text-align: center;">
-<figcaption>Heatset Inserts</figcaption>
+<div style="display: flex; justify-content: space-around; width: 100%;">
+    <figure style="width: 48%; text-align: center; margin: 0;">
+        <img src="/assets/img/BikeConnect2.jpg" alt="Phone Holder Connection" style="width: 100%;">
+        <figcaption>Phone Holder Connection</figcaption>
+    </figure>
+    <figure style="width: 48%; text-align: center; margin: 0;">
+        <img src="/assets/img/Heatsets.jpg" alt="Heatset Inserts" style="width: 100%;">
+        <figcaption>Heatset Inserts</figcaption>
+    </figure>
+</div>
 
 # Individual Components
 <div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
