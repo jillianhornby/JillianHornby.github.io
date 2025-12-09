@@ -26,7 +26,6 @@ For the phone rotation, I chose to use a detent mechanism because it uses a spri
 <img src="/assets/img/Detent-Side.png" alt="Detent Mechanism Side View" style="width: 45%;">
 <img src="/assets/img/DetentPic.jpg" alt="Detent Photo" style="width: 45%;">
 
-![Detent Mechanism Top View](/assets/img/Detent-Top.png) ![Detent Mechanism Side View](/assets/img/Detent-Side.png) ![Detent Photo](/assets/img/DetentPic.jpg)
 ![Detent Rotating](/assets/img/Detent-Rotate.GIF)
 
 I used filament 3D printing since my design used heat-set inserts to connect the components, which requires a thermoplastic design. Both filament printing and SLS printing are acceptable methods for this constraint, but filament printing is cheaper and more accessible.  
