@@ -6,9 +6,7 @@ header:
   teaser: /assets/img/Phone-Render-Long.png
 gallery:
   - image_path: assets/img/BikeConnect1.jpg
-  - image_path: assets/img/BikeConnect2.jpg
   - image_path: assets/img/Phone-on-bar.jpg
-  - image_path: assets/img/Heatsets.jpg
    
 ---
 
@@ -23,10 +21,10 @@ The phone holder design has three major sections: a clamp to attach to the handl
 
 For the phone rotation, I chose to use a detent mechanism because it uses a spring-loaded ball mechanism that allows motion when a large enough force is applied but will resist movement when the ball moves into the detent. My design uses a compression spring and a ball bearing that are housed inside the holder, and a rotating piece with cut-outs in 4 corners. The design successfully holds the phone in the correct orientations while still allowing motion when physically turning it. This required trying different compression springs and ball bearings until it had the desired feel when turning and locking into place. 
 
-<figure style="width: 31%; margin: 5px; text-align: center;">
-  <img src="/assets/img/Detent-Top.png" alt="Detent Mechanism Top View" style="width: 100%;">
-  <img src="/assets/img/Detent-Side.png" alt="Detent Mechanism Side View" style="width: 100%;">
-  <img src="/assets/img/DetentPic.jpg" alt="Detent Photo" style="width: 100%;">
+<figure style="width: 100%; margin: 5px; text-align: center;">
+  <img src="/assets/img/Detent-Top.png" alt="Detent Mechanism Top View" style="width: 31%;">
+  <img src="/assets/img/Detent-Side.png" alt="Detent Mechanism Side View" style="width: 31%;">
+  <img src="/assets/img/DetentPic.jpg" alt="Detent Photo" style="width: 31%;">
   <figcaption>Detent Model: Top View (Rendering), Side View (Fusion Model), Top View (3D-Printed Model) </figcaption>
 </figure>
 
@@ -38,7 +36,13 @@ The final design was printed using PETG for the clamp and detent mechanisms and 
 
 To account for error in the 3D printing process, I added clearance to areas where different parts are connected. I initially added clearance values of 1-2 mm to through-holes and connection areas since I was struggling with warping while using ABS. However, this was too much and once I switched to PETG I was able to use clearance values of 0.1-0.5 mm. For example, the diameter of the bike handle was 22.2 mm, and the 3D-printed clamp had a diameter of 22.4 mm to have a snug fit, whereas the rotation mechanism in the detent had a clearance of 0.5 mm to have more room to rotate.  
 
+# Assembly
 To assemble the components after 3D-printing, heat set inserts were melted into the through holes in the detent mechanism base and in the phone connector to screw together the parts. The phone holder was attached to the bike handles by sliding the clamp on and tightening it using M3 screws and nuts. The phone holder can then support my phone and rotate to vertical and horizontal positions.  
+<img src="/assets/img/BikeConnect2.jpg" alt="Phone Holder Connection" style="width: 45%; margin-right: 10px; text-align: center;"">
+<figcaption>Phone Holder Connection</figcaption>
+<img src="/assets/img/Heatsets.jpg" alt="Heatset Inserts" style="width: 45%; text-align: center;"">
+<figcaption>Heatset Inserts</figcaption>
+
 
 # CAD Model
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b60281138d89b4ccd9116e8?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
