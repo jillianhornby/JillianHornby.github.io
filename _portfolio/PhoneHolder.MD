@@ -22,6 +22,7 @@ Top-down assembly modeling allows multiple components to be designed and assembl
 The phone holder design has three major sections: a clamp to attach to the handlebars, a detent mechanism to rotate the phone, and a phone case. The parts were designed to be assembled relatively simply, requiring only heat set inserts, screws, and nuts. 
 
 For the phone rotation, I chose to use a detent mechanism because it uses a spring-loaded ball mechanism that allows motion when a large enough force is applied but will resist movement when the ball moves into the detent. My design uses a compression spring and a ball bearing that are housed inside the holder, and a rotating piece with cut-outs in 4 corners. The design successfully holds the phone in the correct orientations while still allowing motion when physically turning it. This required trying different compression springs and ball bearings until it had the desired feel when turning and locking into place. 
+
 <img src="/assets/img/Detent-Top.png" alt="Detent Mechanism Top View" style="width: 45%; margin-right: 10px;">
 <img src="/assets/img/Detent-Side.png" alt="Detent Mechanism Side View" style="width: 45%;">
 <img src="/assets/img/DetentPic.jpg" alt="Detent Photo" style="width: 45%;">
@@ -40,10 +41,27 @@ To assemble the components after 3D-printing, heat set inserts were melted into 
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b60281138d89b4ccd9116e8?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 # Individual Components
-![Detent Base](/assets/img/Detent-Base-Render.png)
-![Detent Rotation](/assets/img/Detent-Rotation-Render.png)
-![Detent Cover](/assets/img/Detent-Plate-Render.png)
-![Phone Case](/assets/img/Phone-Case-Render.png)
-![Phone Connector](/assets/img/Phone-Connector-Render.png)
+<div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
+    <figure style="width: 23%; margin: 5px; text-align: center;">
+        <img src="/assets/img/Detent-Base-Render.png" alt="Dentent Base" style="width: 100%;">
+        <figcaption>Detent Base</figcaption>
+    </figure>
+    <figure style="width: 23%; margin: 5px; text-align: center;">
+        <img src="/assets/img/Detent-Rotation-Render.png" alt="Detent Rotation" style="width: 100%;">
+        <figcaption>Detent Rotation</figcaption>
+    </figure>
+    <figure style="width: 23%; margin: 5px; text-align: center;">
+        <img src="/assets/img/Detent-Plate-Render.png" alt="Detent Cover" style="width: 100%;">
+        <figcaption>Detent Cover Plate</figcaption>
+    </figure>
+    <figure style="width: 23%; margin: 5px; text-align: center;">
+        <img src="/assets/img/Phone-Case-Render.png" alt="Phone Case" style="width: 100%;">
+        <figcaption>Phone Case</figcaption>
+    </figure>
+    <figure style="width: 23%; margin: 5px; text-align: center;">
+        <img src="/assets/img/Phone-Connector-Render.png" alt="Phone Connector" style="width: 100%;">
+        <figcaption>Phone Case Connector</figcaption>
+    </figure>
+</div>
 
 {% include gallery caption="Phone Holder Project Gallery" %}
