@@ -26,7 +26,7 @@ The phone holder design has three major sections: a clamp to attach to the handl
 For the phone rotation, I chose to use a detent mechanism because it uses a spring-loaded ball mechanism that allows motion when a large enough force is applied but will resist movement when the ball moves into the detent. My design uses a compression spring and a ball bearing that are housed inside the holder, and a rotating piece with cut-outs in 4 corners. The design successfully holds the phone in the correct orientations while still allowing motion when physically turning it. This required trying different compression springs and ball bearings until it had the desired feel when turning and locking into place. 
 
 <figure style="width: 100%; margin: 5px; text-align: center;">
-  <img src="/assets/img/Detent-Top.png" alt="Detent Mechanism Top View" style="width: 31%;">
+  <img src="/assets/img/detent-render-redo.png" alt="Detent Mechanism Top View" style="width: 31%;">
   <img src="/assets/img/Detent-Side.png" alt="Detent Mechanism Side View" style="width: 31%;">
   <img src="/assets/img/DetentPic.jpg" alt="Detent Photo" style="width: 31%;">
   <figcaption>Detent Model: Top View (Rendering), Side View (Fusion Model), Physical Model</figcaption>
