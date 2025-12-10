@@ -54,7 +54,7 @@ To assemble the components after 3D-printing, heat set inserts were melted into 
     </figure>
 </div>
 
-<img src="/assets/img/Exploded-View-Bike.png" alt="Exploded View" style="width: 100%;">
+<img src="/assets/img/Exploded-View.png" alt="Exploded View" style="width: 100%;">
 <figcaption>Exploded View Assembly</figcaption>
 
 
