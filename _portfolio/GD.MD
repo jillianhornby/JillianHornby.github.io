@@ -71,6 +71,12 @@ For the next iteration, these issues were fixed, resulting in a strong skateboar
 
 ![SLS Truck](/assets/img/SLS-Truck-CLose.jpg)
 
+<figure style="width: 100%; margin: 5px; text-align: center;">
+  <img src="/assets/img/Spinning-Wheels.gif" alt="Spinning Wheels" style="width: 45%;">
+  <img src="/assets/img/Turning.gif" alt="Turning" style="width: 45%;">
+  <figcaption>Powder printed skateboard truck showing wheel rotation and turning capabilities</figcaption>
+</figure>
+
 To improve upon this model further, the motor torque was increased because it was experiencing some twisting at the motor mount when a large force was applied. This newest solution shows more support beams near the motor mount as compared to the previous model. It meets all the requirements for the truck to be successfully used on a skateboard and could be manufactured using aluminum (AlSi10Mg) to be used in real life.  
 
 <figure style="width: 100%; margin: 5px; text-align: center;">
