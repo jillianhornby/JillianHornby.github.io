@@ -4,7 +4,9 @@ excerpt: "Lightweight skateboard truck hangar developed using Generative Design.
 header:
   image: /assets/img/SLS-Truck-Top.jpg
   teaser: /assets/img/SLS-Truck-Top.jpg
-   
+gallery:
+  - image_path: assets/img/SLS-Truck-Back.jpg
+  - image_path: assets/img/Side-View-Truck.jpg
 ---
 
 # Introduction
