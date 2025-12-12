@@ -11,8 +11,6 @@ header:
 The capabilities of generative design were explored by developing a skateboard truck hangar with an integrated motor mount for a brushless DC motor. The goal was to create a truck hangar that was compatible with an existing skateboard and mechanical parts that were ordered to convert it into an electric skateboard. Generative design was used to minimize the mass of the hangar while ensuring the parts were strong enough to withstand the weight of the rider and resist the torque of the motor.
 
 # Design
-## CAD Model
-
 ## Importance of Proper Load Cases
 Applying proper load cases is critical in generative design because the software only solves for the specific forces it’s given. To minimize mass, a generative part removes all of the material that is not being stressed. If a load case is missing, the software will create a geometry that is weak in that direction, which will result in failures when using the part in real life. For this project, “commonsense” loads were used with the help of AI for a 90 kg (~200 lbs) rider and the specific mechanical components used.  
 
@@ -42,14 +40,16 @@ To improve this process beyond estimating loads, strain gauges could be attached
 ## Structural Constraints
 The structural constraint was placed between the kingpin bushings. With a fixed constraint on this central connection point, the simulation forces material to grow outward toward the wheels and motor mount. This placement is important because it defines how the hangar is supported and determines where forces are applied. This ensures that the software knows the hangar is held between the two kingpin bushes so that the motor mount hanging mass is properly supported.  
 
+## Comparison: Nylon 12 vs. AlSiMg10
+Both Nylon 12 and AlSi10Mg were used as materials in the generative design study. The outcomes for Nylon 12 were significantly bulkier and thicker. Nylon 12 is not as strong or stiff as AlSi10Mg (an aluminum alloy), so the software must generate more support to resist the same forces. While Nylon is excellent for absorbing impact, the resulting shape is too large to reasonably be used as a skateboard truck.  
+
+The aluminum outcome is much smaller because its high strength and stiffness allow the software to create thinner structures that resist loads with minimal material. This result is superior for the motor mount interface, which has to overcome belt tension and motor torque.  
+
+The aluminum outcome was powder printed using Nylon 12 as a prototype to assess the design and fit of the truck. 
+
 ## Iterative Process
 
 # Discussion
-## Comparison: Nylon 12 vs. AlSi10Mg
-Nylon 12: The outcomes for Nylon 12 are significantly bulkier and thicker. Since Nylon has a much lower Young’s Modulus (stiffness) than aluminum, the software must generate larger cross-sections to resist the same bending forces. While Nylon is excellent for absorbing impact without shattering, the resulting shape is likely too flexible for a precision motor mount.  
-
-AlSi10Mg: The aluminum outcome is much thinner, due to its high specific stiffness that allows for thin structures that resist twisting and bending loads with minimal material. This result is superior for the motor mount interface, where rigidity is required to maintain belt tension.  
-
 ## Powder Bed Fusion and Generative Design 
 Powder Bed Fusion (PBF) and Generative Design (GD) are a unique pairing because they address each other’s primary limitations. GD often produces organic geometries with complex internal hollows, overhangs, and other patterns that are impossible to manufacture with traditional subtractive methods. PBF allows for this complexity at no additional cost because it does not require support structures, which helps the production of topologically optimized parts that minimize mass while maximizing stiffness. In aerospace and automotive industries, this pairing is used to lower vehicle mass, which directly correlates to fuel efficiency or battery range.  
 
