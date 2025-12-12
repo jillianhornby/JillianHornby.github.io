@@ -49,6 +49,12 @@ Both Nylon 12 and AlSi10Mg were used as materials in the generative design study
   <figcaption>AlSi10Mg (left) and Nylon 12 (right) Generative Design Outcomes</figcaption>
 </figure>
 
+Aluminum Outcome CAD Model:
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b6028116ff2436c774e4613?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+
+Nylon Outcome CAD Model:
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811423e1f18f124cd40?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+
 The aluminum outcome was powder printed using Nylon 12 as a prototype to assess the design and fit of the truck. 
 
 ## Iterative Process
@@ -58,3 +64,6 @@ The aluminum outcome was powder printed using Nylon 12 as a prototype to assess 
 Powder Bed Fusion (PBF) and Generative Design (GD) are a unique pairing because they address each other’s primary limitations. GD often produces organic geometries with complex internal hollows, overhangs, and other patterns that are impossible to manufacture with traditional subtractive methods. PBF allows for this complexity at no additional cost because it does not require support structures, which helps the production of topologically optimized parts that minimize mass while maximizing stiffness. In aerospace and automotive industries, this pairing is used to lower vehicle mass, which directly correlates to fuel efficiency or battery range.  
 
 ## Critique of Generative Design
+Generative design can be very useful for specific applications where weight and performance are critical. It is useful for removing human bias from the design process because it can find structural solutions that a human engineer would never think of. However, generative design is not useful for every application. Because it creates organic geometries, the manufacturing methods required can be much more expensive. The parts are also only as good as the input loads, so even if just one force is missing, the generated part may have unpredictable failures.  
+
+Generative design is most useful in vehicle design for aerospace and automotive applications where the high cost of manufacturing is justified by the performance gains. In these instances, reducing a small amount of mass on a rocket can save thousands of dollars in fuel.  
