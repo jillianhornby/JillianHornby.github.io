@@ -65,7 +65,7 @@ To determine the fit and initial thought process for the loads, the aluminum out
   <figcaption>3D-printed Generative Design Outcomes with varying loads</figcaption>
 </figure>
 
-For the next iteration, these issues were fixed, resulting in a strong skateboard truck that was able to fit on the baseplate and successfully rotate the wheels with the motor. This iteration was printed using powder bed fusion with Nylon 12, even though the aluminum outcome was printed. While it was not a realistic model to ride on, it proved to be a successful prototype that could be successfully manufactured.  
+For the next iteration, these issues were fixed, resulting in a strong skateboard truck that was able to fit on the baseplate and successfully rotate the wheels with the motor. This iteration was printed using powder bed fusion with Nylon 12, even though the aluminum outcome was printed. While this meant it was not a realistic model to ride on, it proved to be a successful prototype that could be successfully manufactured.  
 
 ![SLS Truck](/assets/img/SLS-Truck-CLose.jpg)
 
@@ -76,7 +76,7 @@ To improve upon this model further, the motor torque was increased because it wa
 
 # Discussion
 ## Powder Bed Fusion and Generative Design 
-Powder Bed Fusion (PBF) and Generative Design (GD) are a unique pairing because they address each other’s primary limitations. GD often produces organic geometries with complex internal hollows, overhangs, and other patterns that are impossible to manufacture with traditional subtractive methods. PBF allows for this complexity at no additional cost because it does not require support structures, which helps the production of topologically optimized parts that minimize mass while maximizing stiffness. In aerospace and automotive industries, this pairing is used to lower vehicle mass, which directly correlates to fuel efficiency or battery range.  
+Powder bed fusion and generative design are a unique pairing because they work effectively together to address their limitations. Generative design produces organic geometries with complex internal structures and other patterns that are nearly impossible to manufacture with traditional subtractive methods. Powder bed fusion allows for this complexity because it does not require support structures, which is ideal for producing parts that have minimal mass. In the aerospace and automotive industries, this pairing is used to lower vehicle mass, which directly correlates to fuel efficiency or battery range.  
 
 In [one instance](https://www.diabatix.com/papers-and-publications/gain-55-in-cooling-with-dfam-of-a-copper-3d-printing-cpu-cooler), CPU coolers were developed to be more efficient by using generative design to perform thermal analysis. It was used to manage temperatures and ensure even heat distribution, which resulted in a CPU cooler that kept the CPU temperature more than 20 degrees Celsius cooler than the traditional design and a drastically smaller temperature variance. The generative cooler was printed using laser powder bed fusion with copper powder due to its complicated geometries. Cooling CPUs is incredibly important because overheating can lead to degradation and system failures. The result shows how useful the combination of generative design and powder bed fusion can be in many industries where performance optimization is critical.  
 
