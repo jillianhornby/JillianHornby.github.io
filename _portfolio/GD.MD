@@ -75,7 +75,7 @@ To improve upon this model further, the motor torque was increased because it wa
 
 <figure style="width: 100%; margin: 5px; text-align: center;">
   <img src="/assets/img/Aluminum-Motor-Mount-Iteration.png" alt="New Motor Mount" style="width: 45%;">
-  <img src="/assets/img/Initial-Motor-Mount" alt="Old Motor Mount" style="width: 45%;">
+  <img src="/assets/img/Initial-Motor-Mount.png" alt="Old Motor Mount" style="width: 45%;">
   <figcaption>Final (Left) and Initial (Right) Motor Mount Design</figcaption>
 </figure>
 
