@@ -44,6 +44,7 @@ The structural constraint was placed between the kingpin bushings. With a fixed 
 Both Nylon 12 and AlSi10Mg were used as materials in the generative design study. The outcomes for Nylon 12 were significantly bulkier and thicker. Nylon 12 is not as strong or stiff as AlSi10Mg (an aluminum alloy), so the software must generate more support to resist the same forces. While Nylon is excellent for absorbing impact, the resulting shape is too large to reasonably be used as a skateboard truck.  
 
 The aluminum outcome is much smaller because its high strength and stiffness allow the software to create thinner structures that resist loads with minimal material. This result is superior for the motor mount interface, which has to overcome belt tension and motor torque.  
+![Aluminum Truck Outcome](/assets/img/AlSi10Mg-Outcome.png)
 
 The aluminum outcome was powder printed using Nylon 12 as a prototype to assess the design and fit of the truck. 
 
