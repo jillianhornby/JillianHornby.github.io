@@ -26,6 +26,10 @@ feature_row:
     alt: "Phone Holder"
     title: "Bike Phone Holder"
     excerpt: "Developed using top-down modeling."
+  - image_path: assets/img/SLS_Truck-Back.jpg
+    alt: "Skateboard Truck Hangar"
+    title: "Skateboard Truck Hangar"
+    excerpt: "Optimized using generative design."
 ---
 
 {% include feature_row %}
