@@ -42,11 +42,11 @@ To improve this process beyond estimating loads, strain gauges could be attached
 The structural constraint was placed between the kingpin bushings. With a fixed constraint on this central connection point, the simulation forces material to grow outward toward the wheels and motor mount. This placement is important because it defines how the hangar is supported and determines where forces are applied. This ensures that the software knows the hangar is held between the two kingpin bushes so that the motor mount hanging mass is properly supported.  
 
 ## Comparison: Nylon 12 vs. AlSiMg10
-Both Nylon 12 and AlSi10Mg were used as materials in the generative design study. The outcomes for Nylon 12 were significantly bulkier and thicker. Nylon 12 is not as strong or stiff as AlSi10Mg (an aluminum alloy), so the software must generate more support to resist the same forces. While Nylon is excellent for absorbing impact, the resulting shape is too large to reasonably be used as a skateboard truck, as it would prevent the skateboard from turning properly. The aluminum outcome is much smaller because its high strength and stiffness allow the software to create thinner structures that resist loads with minimal material. This result is superior for the motor mount interface, which has to overcome belt tension and motor torque.  
+Both Nylon 12 and AlSi10Mg were used as materials in the generative design study. The outcomes for Nylon 12 were significantly bulkier and thicker. Nylon 12 is not as strong or stiff as AlSi10Mg (an aluminum alloy), so the software must generate more support to resist the same forces. While Nylon is excellent for absorbing impact, the resulting shape is too large to reasonably be used as a skateboard truck, as it prevents the top bushing from holding the truck in place. The aluminum outcome is much smaller because its high strength and stiffness allow the software to create thinner structures that resist loads with minimal material. This result is superior for the motor mount interface, which has to overcome belt tension and motor torque.  
 
 <figure style="width: 100%; margin: 5px; text-align: center;">
   <img src="/assets/img/AlSi10Mg-Outcome.png" alt="Aluminum Truck Outcome" style="width: 45%;">
-  <img src="/assets/img/Detent-Side.png" alt="Nylon Truck Outcome" style="width: 45%;">
+  <img src="/assets/img/Nylon12-Outcome.png" alt="Nylon Truck Outcome" style="width: 45%;">
   <figcaption>AlSi10Mg (left) and Nylon 12 (right) Generative Design Outcomes</figcaption>
 </figure>
 
@@ -56,9 +56,23 @@ Aluminum Outcome CAD Model:
 Nylon Outcome CAD Model:
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811423e1f18f124cd40?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
-The aluminum outcome was powder printed using Nylon 12 as a prototype to assess the design and fit of the truck. 
-
 ## Iterative Process
+To determine the fit and initial thought process for the loads, the aluminum outcome was printed using 3D filament printing with PLA. Two models were printed: one with small loads and one with larger loads. The difference can be seen visually in the following images. The thin skateboard truck had smaller loads, which caused the motor mount to break off when a small force was applied. The thicker skateboard truck was stronger, but it has too much material and is missing some obstacle geometries that prevented it from fitting properly.  
+
+<figure style="width: 100%; margin: 5px; text-align: center;">
+  <img src="/assets/img/3D-Print-Truck-2.jpg" alt="Thin Truck Outcome" style="width: 45%;">
+  <img src="/assets/img/3D-Print-Truck-1.jpg" alt="Thick Truck Outcome" style="width: 45%;">
+  <figcaption>3D-printed Generative Design Outcomes with varying loads</figcaption>
+</figure>
+
+For the next iteration, these issues were fixed, resulting in a strong skateboard truck that was able to fit on the baseplate and successfully rotate the wheels with the motor. This iteration was printed using powder bed fusion with Nylon 12, even though the aluminum outcome was printed. While it was not a realistic model to ride on, it proved to be a successful prototype that could be successfully manufactured.  
+
+![SLS Truck](/assets/img/SLS-Truck-CLose.jpg)
+
+To improve upon this model further, the motor torque was increased because it was experiencing some twisting at the motor mount when a large force was applied. This newest solution shows more support beams near the motor mount as compared to the previous model. It meets all the requirements for the truck to be successfully used on a skateboard and could be manufactured using aluminum (AlSi10Mg).  
+
+![New Motor Mount](/assets/img/Aluminum-Motor-Mount-Iteration.png)
+
 
 # Discussion
 ## Powder Bed Fusion and Generative Design 
