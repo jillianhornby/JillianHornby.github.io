@@ -15,7 +15,8 @@ The capabilities of generative design were explored by developing a skateboard t
 Applying proper load cases is critical in generative design because the software only solves for the specific forces it’s given. To minimize mass, a generative part removes all of the material that is not being stressed. If a load case is missing, the software will create a geometry that is weak in that direction, which will result in failures when using the part in real life. For this project, “commonsense” loads were used with the help of AI for a 90 kg (~200 lbs) rider and the specific mechanical components used.  
 
 ## Determination of Forces
-The following “commonsense” forces were included:  
+The following “commonsense” forces were included: 
+
 **Vertical Load: The skateboard truck hangar needs to be able to withstand the weight of the rider.**
 * A 90 kg rider applies a force of about 900 N on the wheels.  
 * To simulate the high-impact stress of landing a jump or hitting a crack, a safety factor of 3g was used, resulting in a force of about 2700 total distributed across two trucks (1350 N applied on each side of the axle).  
@@ -41,7 +42,7 @@ To improve this process beyond estimating loads, strain gauges could be attached
 The structural constraint was placed between the kingpin bushings. With a fixed constraint on this central connection point, the simulation forces material to grow outward toward the wheels and motor mount. This placement is important because it defines how the hangar is supported and determines where forces are applied. This ensures that the software knows the hangar is held between the two kingpin bushes so that the motor mount hanging mass is properly supported.  
 
 ## Comparison: Nylon 12 vs. AlSiMg10
-Both Nylon 12 and AlSi10Mg were used as materials in the generative design study. The outcomes for Nylon 12 were significantly bulkier and thicker. Nylon 12 is not as strong or stiff as AlSi10Mg (an aluminum alloy), so the software must generate more support to resist the same forces. While Nylon is excellent for absorbing impact, the resulting shape is too large to reasonably be used as a skateboard truck. The aluminum outcome is much smaller because its high strength and stiffness allow the software to create thinner structures that resist loads with minimal material. This result is superior for the motor mount interface, which has to overcome belt tension and motor torque.  
+Both Nylon 12 and AlSi10Mg were used as materials in the generative design study. The outcomes for Nylon 12 were significantly bulkier and thicker. Nylon 12 is not as strong or stiff as AlSi10Mg (an aluminum alloy), so the software must generate more support to resist the same forces. While Nylon is excellent for absorbing impact, the resulting shape is too large to reasonably be used as a skateboard truck, as it would prevent the skateboard from turning properly. The aluminum outcome is much smaller because its high strength and stiffness allow the software to create thinner structures that resist loads with minimal material. This result is superior for the motor mount interface, which has to overcome belt tension and motor torque.  
 
 <figure style="width: 100%; margin: 5px; text-align: center;">
   <img src="/assets/img/AlSi10Mg-Outcome.png" alt="Aluminum Truck Outcome" style="width: 45%;">
@@ -62,6 +63,8 @@ The aluminum outcome was powder printed using Nylon 12 as a prototype to assess 
 # Discussion
 ## Powder Bed Fusion and Generative Design 
 Powder Bed Fusion (PBF) and Generative Design (GD) are a unique pairing because they address each other’s primary limitations. GD often produces organic geometries with complex internal hollows, overhangs, and other patterns that are impossible to manufacture with traditional subtractive methods. PBF allows for this complexity at no additional cost because it does not require support structures, which helps the production of topologically optimized parts that minimize mass while maximizing stiffness. In aerospace and automotive industries, this pairing is used to lower vehicle mass, which directly correlates to fuel efficiency or battery range.  
+
+## Applications
 
 ## Critique of Generative Design
 Generative design can be very useful for specific applications where weight and performance are critical. It is useful for removing human bias from the design process because it can find structural solutions that a human engineer would never think of. However, generative design is not useful for every application. Because it creates organic geometries, the manufacturing methods required can be much more expensive. The parts are also only as good as the input loads, so even if just one force is missing, the generated part may have unpredictable failures.  
