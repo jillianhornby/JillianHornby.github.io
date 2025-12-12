@@ -5,7 +5,7 @@ header:
   image: /assets/img/SLS-Truck-Top.jpg
   teaser: /assets/img/SLS-Truck-Top.jpg
 gallery:
-  - image_path: assets/img/SLS-Truck-Back.jpg
+  - image_path: assets/img/SLS_Truck-Back.jpg
   - image_path: assets/img/Side-View-Truck.jpg
 ---
 
