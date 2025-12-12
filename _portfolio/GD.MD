@@ -18,11 +18,26 @@ Applying proper load cases is critical in generative design because the software
 
 ## Determination of Forces
 The following “commonsense” forces were included:  
-1. Vertical load: Calculated based on a 90 kg rider (~ 880 N) with a safety factor of 3G (~ 2640 N total) distributed across two trucks. This simulates the high-impact stress of landing a jump or hitting a crack.  
-2. Belt Tension: Determined by the toque of the Flipsky 6374 motor (8 Nm) divided by the radius of the 20T drive pulley.  
-3. Turning/Shear Force: Calculated using the coefficient of friction for polyurethan wheels (u ~= 0.8) against the rider’s weight. This lateral force is applied to both wheels in the same direction to simulate the bending moment created during a sharp turn.  
-4. Motor Weight: A shock load (20G) was applied to the motor mass (0.85 kg) to ensure the mount does not fracture due to vibration 
-5. Motor Torque: A moment was added to the face of the motor mount with the magnitude of the maximum motor torque (8 Nm) to prevent the mount from twisting.  
+**Vertical Load: The skateboard truck hangar needs to be able to withstand the weight of the rider.**
+*A 90 kg rider applies a force of about 900 N on the wheels.  
+*To simulate the high-impact stress of landing a jump or hitting a crack, a safety factor of 3g was used, resulting in a force of about 2700 total distributed across two trucks (1350 N applied on each side of the axle).  
+
+**Belt Tension: The belt pulls the motor shaft and wheel axle toward each other, which the motor mount must resist.**
+*Determined by the torque of the Flipsky 6374 motor (8 Nm) divided by the radius of the 20T drive pulley.  
+*This 500 N force was increased to 550 N for a safety factor.  
+
+**Shear Force: When a turn is carved on a skateboard, friction pushes the wheels sideways. **
+*Calculated using the coefficient of friction of rubber on asphalt (0.8) against the rider’s weight (0.8 * 900 N = 720 N) spread between two trucks (360 N) and increased to 400 N for a safety factor.  
+*This force is in the lateral direction and applied to both wheels in the same direction to simulate the ground pushing both wheels sideways to turn the board.  
+
+**Motor Weight: The motor mass is hanging off the end of a lever arm, and hitting a bump can multiply that mass and cause the motor mount to snap off.**
+*A shock load (20G) was applied to the motor mass (0.85 kg) to ensure the mount doesn’t fracture when hitting bumps. 
+*This 170 N force was placed at the center of mass of the motor.  
+
+**Motor Torque: The motor mount arm will twist when high motor torque is applied.**
+*A moment was added to the face of the motor mount with magnitude of the maximum motor torque (8 Nm) 
+
+To improve this process beyond estimating loads, strain gauges could be attached to the longboard truck to record load data during actual riding conditions, such as drops, turns, and braking, to ensure generative design simulation inputs are closer to reality. 
 
 ## Structural Constraints
 The structural constraint was placed on the kingpin bushing seats. With a fixed constraint on this central connection point, the simulation forces material to grow outward toward the wheels and motor mount. This placement is important because it ensures the motor’s hanging mass is properly supported.  
