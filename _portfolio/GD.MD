@@ -13,6 +13,8 @@ gallery:
 The capabilities of generative design were explored by developing an electric skateboard truck hangar with an integrated motor mount for a brushless DC motor. Generative design was used to minimize the mass of the hangar while ensuring the parts were strong enough to withstand the weight of the rider and resist the torque of the motor.  
 
 # Design
+The skateboard truck was created in Fusion 360 using “preserve geometries” to designate distinct bodies that should be retained, and "obstacle geometries" to prevent the solver from placing material in clearance zones. In the Generative Design workspace, a structural constraint was added to show how the design connects with outside objects, and load cases were added to simulate forces that could act on the skateboard truck in different scenarios, such as turning or landing. A generative design study was run to minimize mass for a Nylon 12 and an AlSiMg10 solution.  
+
 ## Importance of Proper Load Cases
 Applying proper load cases is critical in generative design because the software only solves for the specific forces it’s given. To minimize mass, a generative part removes all of the material that is not being stressed. If a load case is missing, the software will create a geometry that is weak in that direction, which will result in failures when using the part in real life. For this project, “commonsense” loads were used with the help of AI for a 90 kg (~200 lbs) rider and the specific mechanical components used.  
 
