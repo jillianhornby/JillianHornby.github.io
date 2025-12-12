@@ -1,0 +1,12 @@
+---
+title: "Generative Design Skateboard Truck"
+excerpt: "Lightweight skateboard truck hangar developed using Generative Design."
+header:
+  image: /assets/img/test_setup.jpeg
+  teaser: /assets/img/test_setup.jpeg
+   
+---
+
+# Introduction
+## Project Description:
+The capabilities of generative design were explored by developing a skateboard truck hangar with an integrated motor mount for a brushless DC motor. The goal was to create a truck hangar that was compatible with an existing skateboard and mechanical parts that were ordered to convert it into an electric skateboard. Generative design was used to minimize the mass of the hangar while ensuring the parts were strong enough to withstand the weight of the rider and resist the torque of the motor.
