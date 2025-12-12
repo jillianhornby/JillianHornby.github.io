@@ -10,7 +10,7 @@ gallery:
 ---
 
 # Introduction
-The capabilities of generative design were explored by developing a skateboard truck hangar with an integrated motor mount for a brushless DC motor. The goal was to create a truck hangar that was compatible with an existing skateboard and mechanical parts that were ordered to convert it into an electric skateboard. Generative design was used to minimize the mass of the hangar while ensuring the parts were strong enough to withstand the weight of the rider and resist the torque of the motor.
+The capabilities of generative design were explored by developing an electric skateboard truck hangar with an integrated motor mount for a brushless DC motor. Generative design was used to minimize the mass of the hangar while ensuring the parts were strong enough to withstand the weight of the rider and resist the torque of the motor.  
 
 # Design
 ## Importance of Proper Load Cases
@@ -71,7 +71,7 @@ For the next iteration, these issues were fixed, resulting in a strong skateboar
 
 ![SLS Truck](/assets/img/SLS-Truck-CLose.jpg)
 
-To improve upon this model further, the motor torque was increased because it was experiencing some twisting at the motor mount when a large force was applied. This newest solution shows more support beams near the motor mount as compared to the previous model. It meets all the requirements for the truck to be successfully used on a skateboard and could be manufactured using aluminum (AlSi10Mg).  
+To improve upon this model further, the motor torque was increased because it was experiencing some twisting at the motor mount when a large force was applied. This newest solution shows more support beams near the motor mount as compared to the previous model. It meets all the requirements for the truck to be successfully used on a skateboard and could be manufactured using aluminum (AlSi10Mg) to be used in real life.  
 
 <figure style="width: 100%; margin: 5px; text-align: center;">
   <img src="/assets/img/Aluminum-Motor-Mount-Iteration.png" alt="New Motor Mount" style="width: 45%;">
