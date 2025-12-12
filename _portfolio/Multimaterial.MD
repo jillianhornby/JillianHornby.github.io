@@ -1,6 +1,6 @@
 ---
 title: "Multimaterial Pliers"
-excerpt: "A microfluidic device that sorts particles using pinched flow fractionation."
+excerpt: "3D-printed pliers combining flexible and rigid materials."
 header:
   image: /assets/img/three-models.jpg
   teaser: /assets/img/three-models.jpg
