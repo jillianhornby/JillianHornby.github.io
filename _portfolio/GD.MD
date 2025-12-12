@@ -2,8 +2,8 @@
 title: "Generative Design Skateboard Truck"
 excerpt: "Lightweight skateboard truck hangar developed using Generative Design."
 header:
-  image: /assets/img/SLS-Truck-CLose.jpg
-  teaser: /assets/img/SLS-Truck-CLose.jpg
+  image: /assets/img/SLS-Truck-Top.jpg
+  teaser: /assets/img/SLS-Truck-Top.jpg
    
 ---
 
