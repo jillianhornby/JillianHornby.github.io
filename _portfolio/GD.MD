@@ -73,12 +73,16 @@ For the next iteration, these issues were fixed, resulting in a strong skateboar
 
 To improve upon this model further, the motor torque was increased because it was experiencing some twisting at the motor mount when a large force was applied. This newest solution shows more support beams near the motor mount as compared to the previous model. It meets all the requirements for the truck to be successfully used on a skateboard and could be manufactured using aluminum (AlSi10Mg).  
 
-![New Motor Mount](/assets/img/Aluminum-Motor-Mount-Iteration.png)
+<figure style="width: 100%; margin: 5px; text-align: center;">
+  <img src="/assets/img/Aluminum-Motor-Mount-Iteration.png" alt="New Motor Mount" style="width: 45%;">
+  <img src="/assets/img/Initial-Motor-Mount" alt="Old Motor Mount" style="width: 45%;">
+  <figcaption>Final (Left) and Initial (Right) Motor Mount Design</figcaption>
+</figure>
 
 
 # Discussion
 ## Powder Bed Fusion and Generative Design 
-Powder bed fusion and generative design are a unique pairing because they work effectively together to address their limitations. Generative design produces organic geometries with complex internal structures and other patterns that are nearly impossible to manufacture with traditional subtractive methods. Powder bed fusion allows for this complexity because it does not require support structures, which is ideal for producing parts that have minimal mass. In the aerospace and automotive industries, this pairing is used to lower vehicle mass, which directly correlates to fuel efficiency or battery range.  
+Powder bed fusion and generative design are a unique pairing because they work effectively together to address their limitations. Generative design produces organic geometries with complex internal structures and other patterns that are nearly impossible to manufacture with traditional subtractive methods. Powder bed fusion allows for this complexity because it does not require support structures, which is ideal for producing parts that have minimal mass. This combination has applications in many industries, such as the aerospace and automotive industries, where the pairing is used to lower vehicle mass, which directly correlates to fuel efficiency or battery range.  
 
 In [one instance](https://www.diabatix.com/papers-and-publications/gain-55-in-cooling-with-dfam-of-a-copper-3d-printing-cpu-cooler), CPU coolers were developed to be more efficient by using generative design to perform thermal analysis. It was used to manage temperatures and ensure even heat distribution, which resulted in a CPU cooler that kept the CPU temperature more than 20 degrees Celsius cooler than the traditional design and a drastically smaller temperature variance. The generative cooler was printed using laser powder bed fusion with copper powder due to its complicated geometries. Cooling CPUs is incredibly important because overheating can lead to degradation and system failures. The result shows how useful the combination of generative design and powder bed fusion can be in many industries where performance optimization is critical.  
 
