@@ -86,3 +86,5 @@ In [one instance](https://www.diabatix.com/papers-and-publications/gain-55-in-co
 Generative design can be very useful for specific applications where weight and performance are critical. It is useful for removing human bias from the design process because it can find structural solutions that a human engineer would never think of. However, generative design is not useful for every application. Because it creates organic geometries, the manufacturing methods required can be much more expensive. The parts are also only as good as the input loads, so even if just one force is missing, the generated part may have unpredictable failures.  
 
 Generative design is most useful in vehicle design for aerospace and automotive applications where the high cost of manufacturing is justified by the performance gains. In these instances, reducing a small amount of mass on a rocket can save thousands of dollars in fuel.  
+
+{% include gallery caption="Generative Design Skateboard Truck Project Gallery" %}
