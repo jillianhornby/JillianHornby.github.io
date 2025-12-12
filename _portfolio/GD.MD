@@ -77,13 +77,14 @@ For the next iteration, these issues were fixed, resulting in a strong skateboar
   <figcaption>Powder printed skateboard truck showing wheel rotation and turning capabilities</figcaption>
 </figure>
 
-To improve upon this model further, the motor torque was increased because it was experiencing some twisting at the motor mount when a large force was applied. This newest solution shows more support beams near the motor mount as compared to the previous model. It meets all the requirements for the truck to be successfully used on a skateboard and could be manufactured using aluminum (AlSi10Mg) to be used in real life.  
+To improve upon this model further, the motor torque was increased because it was experiencing some twisting at the motor mount when a large force was applied. This newest solution shows more support beams near the motor mount as compared to the previous model. It meets all the requirements for the truck to be successfully used on a skateboard and could be manufactured with aluminum (AlSi10Mg) to be used in real life.  
 
 <figure style="width: 100%; margin: 5px; text-align: center;">
   <img src="/assets/img/Aluminum-Motor-Mount-Iteration.png" alt="New Motor Mount" style="width: 45%;">
   <img src="/assets/img/Initial-Motor-Mount.png" alt="Old Motor Mount" style="width: 45%;">
   <figcaption>Final (Left) and Initial (Right) Motor Mount Design</figcaption>
 </figure>
+
 
 
 # Discussion
@@ -95,6 +96,6 @@ In [one instance](https://www.diabatix.com/papers-and-publications/gain-55-in-co
 ## Critique of Generative Design
 Generative design can be very useful for specific applications where weight and performance are critical. It is useful for removing human bias from the design process because it can find structural solutions that a human engineer would never think of. However, generative design is not useful for every application. Because it creates organic geometries, the manufacturing methods required can be much more expensive. The parts are also only as good as the input loads, so even if just one force is missing, the generated part may have unpredictable failures.  
 
-Generative design is most useful in vehicle design for aerospace and automotive applications where the high cost of manufacturing is justified by the performance gains. In these instances, reducing a small amount of mass on a rocket can save thousands of dollars in fuel.  
+Generative design is most useful in applications where the high cost of manufacturing is justified by the performance gains. This is why it is increasingly used to design parts for aerospace or automotive vehicles, where reducing a small amount of mass on a rocket can save thousands of dollars in fuel. However, it can be beneficial for any application that has specific high-level performance requirements that need to be achieved but may not have an intuitive design solution. Generative design software provides the means to achieve these performance goals so that engineers can focus on innovation.  
 
 {% include gallery caption="Generative Design Skateboard Truck Project Gallery" %}
