@@ -2,8 +2,8 @@
 title: "Microfluidic Sorting Device"
 excerpt: "A microfluidic device that sorts particles using pinched flow fractionation."
 header:
-  image: /assets/img/test_setup.jpeg
-  teaser: /assets/img/test_setup.jpeg
+  image: /assets/img/test_setup_long.jpeg
+  teaser: /assets/img/test_setup_long.jpeg
    
 ---
 
